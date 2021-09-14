@@ -68,6 +68,11 @@ $( document ).ready(function() {
     }
 
     setInterval(bildspel, 7000)
+    $('#test').on('click', visa);
+
+    function visa(e){
+        document.getElementById('myLinks').classList.toggle('show')
+    }
 
         
 })
