@@ -69,7 +69,8 @@ $( document ).ready(function() {
 
     setInterval(bildspel, 7000)
 
-        
+   
+   
 })
 
         
