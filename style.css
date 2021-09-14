@@ -21,7 +21,7 @@
 .bildspel {
     width: 15em;
     height: 15em;
-    margin-left: 3em;
+    float: center;
     
 }
 
@@ -51,13 +51,19 @@ ul {
     font-size: 30px;
     margin: 0;
     background-image: linear-gradient(to right, rgb(3, 32, 124), rgb(19, 180, 230));
-    
 }
 
 a{
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    
 }
+
+li{
+    margin-bottom: 0.7em;
+}
+
 #welcome{
     text-align: center;
     border-color: cornflowerblue;
