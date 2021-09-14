@@ -34,3 +34,11 @@
     
 }
 
+#welcome{
+    text-align: center;
+    border-color: cornflowerblue;
+    border-style:dotted;
+    margin-left: 30%;
+    margin-right: 30%;
+    height: auto;
+}

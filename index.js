@@ -78,18 +78,8 @@ $( document ).ready(function() {
    
 })
 
-<<<<<<< Updated upstream
         
 
 
 
 
-=======
-
-    function myFunction() {
-        document.getElementById("myLinks").classList.toggle("show");
-      }
-           
-
-
->>>>>>> Stashed changes
