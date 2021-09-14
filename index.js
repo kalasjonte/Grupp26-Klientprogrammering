@@ -27,6 +27,7 @@ $( document ).ready(function() {
         $('.bildspel').fadeIn(3000)
         })
         index++;
+
         
         } 
         else if ( index == 1){
@@ -70,3 +71,9 @@ $( document ).ready(function() {
 
         
 })
+
+        
+
+
+
+
