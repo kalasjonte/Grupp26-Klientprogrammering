@@ -8,6 +8,7 @@
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 50px;
+    margin: 0;
 
 }
 
@@ -32,5 +33,28 @@
 .show{
     display: none;
     
+    
 }
 
+#myLinks{
+    border-style: none;
+    border-top: white;
+    border-top-style: solid;
+    
+    margin-top: 0%;
+    
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    background-image: linear-gradient(to right, rgb(3, 32, 124), rgb(19, 180, 230));
+    
+}
+
+a{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
