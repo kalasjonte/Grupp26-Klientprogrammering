@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 
-    var pics = ["/images/1.jpg", "/images/2.webp", "/images/3.jpg", "/images/4.jpg"]
+    var pics = ["images/1.jpg", "images/2.webp", "images/3.jpg", "images/4.jpg"]
 
     function setBilder() {
     $('#bild1').attr('src', pics[0])
