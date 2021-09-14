@@ -21,14 +21,13 @@
 .bildspel {
     width: 15em;
     height: 15em;
-    margin-left: 3em;
     
 }
 
-#bilder
+/* #bilder
 {
     border-style: solid;
-}
+} */
 
 .show{
     display: none;
@@ -58,11 +57,10 @@ a{
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-#welcome{
+
+
+#text{
+    font-size: 2em;
     text-align: center;
-    border-color: cornflowerblue;
-    border-style:dotted;
-    margin-left: 30%;
-    margin-right: 30%;
-    height: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
