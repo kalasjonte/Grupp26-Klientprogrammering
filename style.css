@@ -1,6 +1,13 @@
+.grad {
+    background-image: linear-gradient(to right, rgb(3, 32, 124), rgb(19, 180, 230));
+}
+
 #menu {
-    border-style: solid;
-    border-color: black;
+    border-style: none;
+    color: rgb(248, 248, 248);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
 }
 
 
