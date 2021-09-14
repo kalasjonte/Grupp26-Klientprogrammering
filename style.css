@@ -16,4 +16,15 @@
     width: 5%;
 }
 
+.bildspel {
+    width: 15em;
+    height: 15em;
+    margin-left: 3em;
+    
+}
+
+#bilder
+{
+    border-style: solid;
+}
 
