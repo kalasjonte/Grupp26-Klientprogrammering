@@ -58,3 +58,11 @@ a{
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+#welcome{
+    text-align: center;
+    border-color: cornflowerblue;
+    border-style:dotted;
+    margin-left: 30%;
+    margin-right: 30%;
+    height: auto;
+}
