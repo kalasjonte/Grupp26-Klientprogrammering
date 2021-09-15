@@ -69,30 +69,38 @@ li{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#vdiagram{
 
+/*vilmas sida*/
+#vpre{
+    margin-bottom: 25em;
+    
+}
+
+#vilmabild{
+    float: left;
+    margin-right: 4em;
+    margin-left: 2em;
+}
+#vdiagram{
     border-left: 0.5em solid grey;
     margin-left: 2em;
 }
 
 #vstapel1{
-
-    border: 1em cornflowerblue solid;
+    border: 0.3em cornflowerblue solid;
     background-color: cornflowerblue;
     margin-right: 10em;
 }
 
 #vstapel2{
-
-    border: 1em cornflowerblue solid;
+    border: 0.3em cornflowerblue solid;
     background-color: cornflowerblue;
     margin-right: 30em;
     margin-top: 2em;
 }
 
 #vstapel3{
-
-    border: 1em cornflowerblue solid;
+    border: 0.3em cornflowerblue solid;
     background-color: cornflowerblue;
     margin-right: 58em;
     margin-top: 2em;
@@ -100,16 +108,25 @@ li{
 
 #vstapel4{
 
-    border: 1em cornflowerblue solid;
+    border: 0.3em cornflowerblue solid;
     background-color: cornflowerblue;
     margin-right: 18em;
     margin-top: 2em;
 }
 
 #vstapel5{
-
-    border: 1em cornflowerblue solid;
+    border: 0.3em cornflowerblue solid;
     background-color: cornflowerblue;
     margin-right: 20em;
     margin-top: 2em;
+}
+
+#vnamn{
+    color: white;
+    font-size: 3em;
+}
+
+#vmenu{
+    margin: 0%;
+    size: 10em;
 }
