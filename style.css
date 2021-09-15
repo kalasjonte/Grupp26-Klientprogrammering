@@ -2,6 +2,12 @@
     background-image: linear-gradient(to right, rgb(3, 32, 124), rgb(19, 180, 230));
 }
 
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: grey;
+    background-color: rgba(166, 200, 250, 0.527);
+}
+
 #menu {
     border-style: none;
     color: rgb(248, 248, 248);
@@ -69,50 +75,88 @@ li{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#vdiagram{
 
+/*vilmas sida*/
+#vpre{
+    margin-bottom: 25em;
+    margin-top: 2em;
+    
+}
+
+#vilmabild{
+    float: left;
+    margin-right: 4em;
+    margin-left: 2em;
+}
+
+#vdiagram{
     border-left: 0.5em solid grey;
     margin-left: 2em;
 }
 
 #vstapel1{
-
-    border: 1em cornflowerblue solid;
+    border: 0.3em cornflowerblue solid;
     background-color: cornflowerblue;
     margin-right: 10em;
 }
 
 #vstapel2{
-
-    border: 1em cornflowerblue solid;
+    border: 0.3em cornflowerblue solid;
     background-color: cornflowerblue;
     margin-right: 30em;
     margin-top: 2em;
 }
 
 #vstapel3{
-
-    border: 1em cornflowerblue solid;
+    border: 0.3em cornflowerblue solid;
     background-color: cornflowerblue;
     margin-right: 58em;
     margin-top: 2em;
 }
 
 #vstapel4{
-
-    border: 1em cornflowerblue solid;
+    border: 0.3em cornflowerblue solid;
     background-color: cornflowerblue;
     margin-right: 18em;
     margin-top: 2em;
 }
 
 #vstapel5{
-
-    border: 1em cornflowerblue solid;
+    border: 0.3em cornflowerblue solid;
     background-color: cornflowerblue;
     margin-right: 20em;
     margin-top: 2em;
 }
+
+#vnamn{
+    color: white;
+    font-size: 3.3em;
+    margin-top: 0.5em;
+    margin-bottom: 0,5em;
+    text-align: center;
+}
+
+#vmenu{
+    border: solid transparent;
+    border-left: none;
+    border-right: none;
+    margin: 0%;
+}
+
+#tabellrubrik{
+    color: grey;
+    font-size: 2em;
+    margin-left: 0.5em;
+}
+
+.tabelltext{
+    color: white;
+
+
+}
+
+
+
 #presentation{
     color: black;
 }
@@ -120,4 +164,3 @@ li{
 .presentation{
     text-align: center;
 }
-
