@@ -73,7 +73,19 @@ $( document ).ready(function() {
     function visa(e){
         document.getElementById('myLinks').classList.toggle('show')
     }
+
+       
+    // }
+    // $("#animate").hover(function(){$("#hej").fadeIn(2000);},
+    //                function(){$("#hej").fadeOut(1000);});
     
+    $(".animate").hover(test1, test2);
+    function test1(){
+       $("#hej").fadeIn(2000);
+    }
+    function test2(){
+        $("#hej").fadeOut(1000);
+    }
 
    
    

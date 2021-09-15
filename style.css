@@ -137,3 +137,7 @@ li{
 .presentation{
     text-align: center;
 }
+
+#hej {
+    display: none;
+}
