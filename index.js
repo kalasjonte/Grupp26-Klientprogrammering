@@ -73,7 +73,7 @@ $( document ).ready(function() {
     function visa(e){
         document.getElementById('myLinks').classList.toggle('show')
     }
-    
+
 
    
    
