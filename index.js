@@ -74,10 +74,6 @@ $( document ).ready(function() {
         document.getElementById('myLinks').classList.toggle('show')
     }
 
-       
-    // }
-    // $("#animate").hover(function(){$("#hej").fadeIn(2000);},
-    //                function(){$("#hej").fadeOut(1000);});
     
     $(".animate").hover(test1, test2);
     function test1(){
