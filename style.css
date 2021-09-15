@@ -32,8 +32,6 @@
 
 .show{
     display: none;
-    
-    
 }
 
 #myLinks{
@@ -57,9 +55,7 @@ a{
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
-    
 }
-
 
 #text{
     font-size: 2em;
@@ -71,4 +67,49 @@ li{
 #welcome{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#vdiagram{
+
+    border-left: 0.5em solid grey;
+    margin-left: 2em;
+}
+
+#vstapel1{
+
+    border: 1em cornflowerblue solid;
+    background-color: cornflowerblue;
+    margin-right: 10em;
+}
+
+#vstapel2{
+
+    border: 1em cornflowerblue solid;
+    background-color: cornflowerblue;
+    margin-right: 30em;
+    margin-top: 2em;
+}
+
+#vstapel3{
+
+    border: 1em cornflowerblue solid;
+    background-color: cornflowerblue;
+    margin-right: 58em;
+    margin-top: 2em;
+}
+
+#vstapel4{
+
+    border: 1em cornflowerblue solid;
+    background-color: cornflowerblue;
+    margin-right: 18em;
+    margin-top: 2em;
+}
+
+#vstapel5{
+
+    border: 1em cornflowerblue solid;
+    background-color: cornflowerblue;
+    margin-right: 20em;
+    margin-top: 2em;
 }
