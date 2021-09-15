@@ -164,3 +164,11 @@ li{
 .presentation{
     text-align: center;
 }
+
+#bagage {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width:  10%;
+    height: 20%;
+}
