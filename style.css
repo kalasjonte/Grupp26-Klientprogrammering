@@ -69,7 +69,6 @@ li{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-<<<<<<< Updated upstream
 #vdiagram{
 
     border-left: 0.5em solid grey;
@@ -113,12 +112,11 @@ li{
     background-color: cornflowerblue;
     margin-right: 20em;
     margin-top: 2em;
-=======
+}
 #presentation{
     color: black;
 }
 
 .presentation{
     text-align: center;
->>>>>>> Stashed changes
 }
