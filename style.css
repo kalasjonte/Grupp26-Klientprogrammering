@@ -130,3 +130,10 @@ li{
     margin: 0%;
     size: 10em;
 }
+#presentation{
+    color: black;
+}
+
+.presentation{
+    text-align: center;
+}
