@@ -74,6 +74,14 @@ $( document ).ready(function() {
         document.getElementById('myLinks').classList.toggle('show')
     }
 
+    
+    $(".animate").hover(test1, test2);
+    function test1(){
+       $("#hej").fadeIn(2000);
+    }
+    function test2(){
+        $("#hej").fadeOut(1000);
+    }
 
    
    
