@@ -67,11 +67,25 @@ $( document ).ready(function() {
                     }    
     }
 
+    var intervallen = null;
+
     function start(){
-    bildspel();
-    setInterval(bildspel, 7000)
-    $('#test').on('click', visa);
+       let text = $('#nextImage').text()
+       console.log(text)
+    if(text == 'Starta bildspel') {
+        
+        bildspel();
+        intervallen = setInterval(bildspel, 7000)
+        $('#nextImage').text('Stoppa bildspel')
     }
+    else if (text == 'Stoppa bildspel'){
+        clearInterval(intervallen);
+        $('#nextImage').text('Starta bildspel')
+        
+    }
+    }
+
+    $('#test').on('click', visa);
 
     function visa(e){
         document.getElementById('myLinks').classList.toggle('show')
