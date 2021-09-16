@@ -89,8 +89,6 @@ $( document ).ready(function() {
 
     $('#test').on('click', visa);
 
-    $('#test').on('click', visa);
-
     function visa(e){
         document.getElementById('myLinks').classList.toggle('show')
     }
