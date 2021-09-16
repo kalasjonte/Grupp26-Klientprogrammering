@@ -1,5 +1,5 @@
 .grad {
-    background-image: linear-gradient( rgb(160, 216, 233), rgb(47, 88, 99));
+    background-image: linear-gradient( rgb(160, 216, 233), rgb(70, 145, 155));
 }
 
 .grad2 {
@@ -41,12 +41,6 @@ body{
 
 .show{
     display: none;
-}
-
-#myLinks{
-    border: none;
-    margin-top: 0%;
-    
 }
 
 ul {
@@ -153,8 +147,6 @@ li{
 
 .tabelltext{
     color: white;
-
-
 }
 
 
@@ -183,4 +175,38 @@ li{
     height: 4em;
     float: right;
     position: absolute;
+}
+
+#kontakt{
+    border: solid rgb(47, 88, 99);
+    border-radius: 2em;
+    margin: 2em;
+    text-align:justify;
+    padding: 3em;
+    font-size: 1em;
+    margin-right: 40em;
+
+}
+
+label{
+    margin: 2em;
+
+}
+
+input{
+    margin-left: 2em;
+    margin-bottom: 1em;
+}
+
+textarea{
+    margin-left: 2em;
+    margin-bottom: 1em;
+    margin-top: 0.4em;
+    width: 30em;
+    height: 10em;
+}
+
+#submit{
+    color: rgb(47, 88, 99);
+    padding: 0.6em 2em;
 }
