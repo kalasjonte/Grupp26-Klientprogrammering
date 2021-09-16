@@ -177,3 +177,10 @@ li{
 #hej {
     display: none;
 }
+
+#hej{
+    width: 4em;
+    height: 4em;
+    float: right;
+    position: absolute;
+}

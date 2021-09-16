@@ -10,7 +10,7 @@ $( document ).ready(function() {
     }
     setBilder()
 
-    $('#nextImage').on('click', bildspel)
+    $('#nextImage').on('click', start)
     var index = 0;
     
     function bildspel(e){
@@ -67,7 +67,24 @@ $( document ).ready(function() {
                     }    
     }
 
-    setInterval(bildspel, 7000)
+    var intervallen = null;
+
+    function start(){
+       let text = $('#nextImage').text()
+       console.log(text)
+    if(text == 'Starta bildspel') {
+        
+        bildspel();
+        intervallen = setInterval(bildspel, 7000)
+        $('#nextImage').text('Stoppa bildspel')
+    }
+    else if (text == 'Stoppa bildspel'){
+        clearInterval(intervallen);
+        $('#nextImage').text('Starta bildspel')
+        
+    }
+    }
+
     $('#test').on('click', visa);
 
     function visa(e){
@@ -83,7 +100,7 @@ $( document ).ready(function() {
         $("#hej").fadeOut(1000);
     }
 
-   
+    $('#submit').preventDefault();
    
 })
 
