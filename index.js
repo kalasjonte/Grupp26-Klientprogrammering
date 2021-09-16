@@ -67,10 +67,27 @@ $( document ).ready(function() {
                     }    
     }
 
+    var intervallen = null;
+
     function start(){
     bildspel();
     setInterval(bildspel, 7000)
+       let text = $('#nextImage').text()
+       console.log(text)
+    if(text == 'Starta bildspel') {
+        
+        bildspel();
+        intervallen = setInterval(bildspel, 7000)
+        $('#nextImage').text('Stoppa bildspel')
     }
+    else if (text == 'Stoppa bildspel'){
+        clearInterval(intervallen);
+        $('#nextImage').text('Starta bildspel')
+        
+    }
+    }
+
+    $('#test').on('click', visa);
 
     $('#test').on('click', visa);
 
@@ -106,7 +123,7 @@ $( document ).ready(function() {
         $("#jBild").fadeOut(1000);
     }
 
-   
+    $('#submit').preventDefault();
    
 })
 
