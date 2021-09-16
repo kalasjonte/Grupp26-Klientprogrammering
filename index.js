@@ -10,7 +10,7 @@ $( document ).ready(function() {
     }
     setBilder()
 
-    $('#nextImage').on('click', bildspel)
+    $('#nextImage').on('click', start)
     var index = 0;
     
     function bildspel(e){
@@ -67,8 +67,11 @@ $( document ).ready(function() {
                     }    
     }
 
+    function start(){
+    bildspel();
     setInterval(bildspel, 7000)
     $('#test').on('click', visa);
+    }
 
     function visa(e){
         document.getElementById('myLinks').classList.toggle('show')
