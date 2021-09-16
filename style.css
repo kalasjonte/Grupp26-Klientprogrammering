@@ -172,13 +172,31 @@ li{
     width:  10%;
     height: 20%;
 }
-#hej {
+
+
+#jBild{
     display: none;
+    width: 4em;
+    height: 4em;
+    position: relative; 
+    float: right;
+    left: 25em ;
+   
 }
 
-#hej{
+#aBild{
+    display: none;
     width: 4em;
     height: 4em;
     float: right;
-    position: absolute;
+    position: relative; 
+    right: 35em;
+}
+#vBild{
+    display: none;
+    width: 4em;
+    height: 4em;
+    float: right;
+    position: relative; 
+    right: 35em;
 }

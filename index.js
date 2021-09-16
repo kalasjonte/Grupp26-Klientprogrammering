@@ -70,20 +70,40 @@ $( document ).ready(function() {
     function start(){
     bildspel();
     setInterval(bildspel, 7000)
-    $('#test').on('click', visa);
     }
+
+    $('#test').on('click', visa);
 
     function visa(e){
         document.getElementById('myLinks').classList.toggle('show')
     }
 
     
-    $(".animate").hover(test1, test2);
+    $("#aLink").hover(test1, test2);
+
     function test1(){
-       $("#hej").fadeIn(2000);
+        $("#aBild").fadeIn(2000);
     }
     function test2(){
-        $("#hej").fadeOut(1000);
+        $("#aBild").fadeOut(1000);
+    }
+
+    $("#vLink").hover(vBild1, vbild2);
+
+    function vBild1(){
+        $("#vBild").fadeIn(2000);
+    }
+    function vbild2(){
+        $("#vBild").fadeOut(1000);
+    }
+
+    $("#jLink").hover(jBild1, jbild2);
+
+    function jBild1(){
+        $("#jBild").fadeIn(2000);
+    }
+    function jbild2(){
+        $("#jBild").fadeOut(1000);
     }
 
    
