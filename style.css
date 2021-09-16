@@ -181,7 +181,7 @@ li{
     height: 4em;
     position: relative; 
     float: right;
-    left: 25em ;
+    right: 35em ;
    
 }
 
@@ -239,4 +239,38 @@ textarea{
     float: right;
     position: relative; 
     right: 35em;
+}
+
+#astapel1{
+    border: 0.3em cornflowerblue solid;
+    background-color: cornflowerblue;
+    margin-right: 20em;
+    margin-bottom: 2em;
+}
+#astapel2{
+    border: 0.3em cornflowerblue solid;
+    background-color: cornflowerblue;
+    margin-right: 10em;
+    margin-bottom: 2em;
+}
+#astapel3{
+    border: 0.3em cornflowerblue solid;
+    background-color: cornflowerblue;
+    margin-right: 10em;
+    margin-bottom: 2em;
+}
+#astapel4{
+    border: 0.3em cornflowerblue solid;
+    background-color: cornflowerblue;
+    margin-right: 10em;
+    margin-bottom: 2em;
+}
+#astapel5{
+    border: 0.3em cornflowerblue solid;
+    background-color: cornflowerblue;
+    margin-right: 10em;
+    margin-bottom: 2em;
+}
+#amanda{
+    float: left;
 }

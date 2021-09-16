@@ -121,7 +121,85 @@ $( document ).ready(function() {
         $("#jBild").fadeOut(1000);
     }
 
-    $('#submit').preventDefault();
+    $('#submit').on('click', submitForm);
+    $('.inputs').click(
+        function(){
+            $(this).val('').css({'color': 'black'})
+        });
+
+    function submitForm(e) {
+        e.preventDefault();
+        validation();
+    }
+
+    function validation() {
+        let namnfield = $('#namn').val();
+        let telefon = $('#tele').val();
+        let email = $('#email').val();
+        let msg = $('#textfield').val();
+        namnValidation();
+        teleValidation();
+        emailValidation(),
+        msgValidation();
+    }
+
+    function namnValidation() {
+        let namnfield = $('#namn').val();
+        var letters = /^[A-Za-z]+$/
+        if(namnfield == '') {
+            $('#namn').val('Var vänlig och fyll i fältet').css({ 'color': 'red'})
+        }
+        else if(namnfield.length > 30) {
+            $('#namn').val('Högst 30 tecken!').css({ 'color': 'red'})
+        } 
+        else if(!namnfield.match(letters)) {
+            $('#namn').val('Endast bokstäver och mellanslag').css({ 'color': 'red'})
+        }
+    }
+
+    function teleValidation() {
+        let telefield = $('#tele').val();
+        var letters = /^[A-Za-z]+$/
+
+        if(telefield == '') {
+            $('#tele').val('Var vänlig och fyll i fältet').css({ 'color': 'red'})
+        }
+
+        else if(telefield.match(letters)) {
+            $('#tele').val('Bara nummer').css({ 'color': 'red'})
+        }
+        
+        else if(telefield.length > 10 || telefield.length < 10 ) {
+            $('#tele').val('10 tecken behövs').css({ 'color': 'red'})
+        } 
+
+    }
+
+    function emailValidation(){
+        let emailField = $('#email').val();
+        var letters = /^[A-Za-z]+$/
+
+        if(emailField == '') {
+            $('#email').val('Var vänlig och fyll i fältet').css({ 'color': 'red'})
+        }
+
+        else if(emailField.match(letters)) {
+            $('#email').val('Bara nummer').css({ 'color': 'red'})
+        }
+        
+        else if(emailField.length > 10 || emailField.length < 10 ) {
+            $('#email').val('10 tecken behövs').css({ 'color': 'red'})
+        } 
+
+
+    }
+
+    function msgValidation(){
+    
+    
+
+    }
+
    
 })
 
