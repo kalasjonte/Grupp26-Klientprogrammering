@@ -100,7 +100,7 @@ $( document ).ready(function() {
         $("#hej").fadeOut(1000);
     }
 
-   
+    $('#submit').preventDefault();
    
 })
 
