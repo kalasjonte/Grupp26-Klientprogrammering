@@ -67,21 +67,19 @@ $( document ).ready(function() {
                     }    
     }
 
-    var intervallen = null;
+    var interval = null;
 
     function start(){
-    bildspel();
-    setInterval(bildspel, 7000)
        let text = $('#nextImage').text()
-       console.log(text)
     if(text == 'Starta bildspel') {
-        
+        console.log('if')
         bildspel();
-        intervallen = setInterval(bildspel, 7000)
+        interval = setInterval(bildspel, 7000)
         $('#nextImage').text('Stoppa bildspel')
     }
     else if (text == 'Stoppa bildspel'){
-        clearInterval(intervallen);
+        console.log('else if')
+        clearInterval(interval);
         $('#nextImage').text('Starta bildspel')
         
     }
@@ -145,57 +143,71 @@ $( document ).ready(function() {
 
     function namnValidation() {
         let namnfield = $('#namn').val();
-        var letters = /^[A-Za-z]+$/
+        var letters = /^(?![\s.]+$)[a-zA-ZäöåÄÖÅ ]+$/
+        var mellanslag = /^[\s.]+$/
         if(namnfield == '') {
             $('#namn').val('Var vänlig och fyll i fältet').css({ 'color': 'red'})
         }
-        else if(namnfield.length > 30) {
-            $('#namn').val('Högst 30 tecken!').css({ 'color': 'red'})
+        else if(namnfield.length > 30 || namnfield.length < 3) {
+            $('#namn').val('Minst 3 och högst 30 tecken!').css({ 'color': 'red'})
         } 
+
+        else if (namnfield.match(mellanslag)) {
+            $('#namn').val('Mellanslag är inget namn').css({ 'color': 'red'})
+        }
+        
         else if(!namnfield.match(letters)) {
             $('#namn').val('Endast bokstäver och mellanslag').css({ 'color': 'red'})
         }
+        
+
     }
 
     function teleValidation() {
         let telefield = $('#tele').val();
-        var letters = /^[A-Za-z]+$/
+        var letters = /^(?![\s.]+$)[a-zA-ZäöåÄÖÅ ]+$/
+        var mellanslag = /^[\s.]+$/
 
         if(telefield == '') {
             $('#tele').val('Var vänlig och fyll i fältet').css({ 'color': 'red'})
         }
 
-        else if(telefield.match(letters)) {
-            $('#tele').val('Bara nummer').css({ 'color': 'red'})
+        else if(telefield.match(letters) || telefield.match(mellanslag) ) {
+            $('#tele').val('Bara nummer här!').css({ 'color': 'red'})
         }
         
-        else if(telefield.length > 10 || telefield.length < 10 ) {
+        else if(telefield.length < 10 || telefield.length > 10 ) {
             $('#tele').val('10 tecken behövs').css({ 'color': 'red'})
         } 
+
+        else if(telefield.match(mellanslag))
+        {
+            $('#tele').val('Kontrollera formatet').css({ 'color': 'red'})
+        }
+
+        
 
     }
 
     function emailValidation(){
         let emailField = $('#email').val();
-        var letters = /^[A-Za-z]+$/
+        let mailFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
 
         if(emailField == '') {
             $('#email').val('Var vänlig och fyll i fältet').css({ 'color': 'red'})
         }
 
-        else if(emailField.match(letters)) {
-            $('#email').val('Bara nummer').css({ 'color': 'red'})
+        else if(!emailField.match(mailFormat)) {
+            $('#email').val('Kontrollera email format').css({ 'color': 'red'})
         }
         
-        else if(emailField.length > 10 || emailField.length < 10 ) {
-            $('#email').val('10 tecken behövs').css({ 'color': 'red'})
-        } 
-
-
     }
 
     function msgValidation(){
-    
+        let msg = $('#textfield').val();
+        if(msg == '') {
+            $('#textfield').val('Var vänlig och fyll i fältet').css({ 'color': 'red'})
+        }
     
 
     }
