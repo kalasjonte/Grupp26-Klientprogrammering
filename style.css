@@ -305,3 +305,57 @@ textarea{
 }
     
 }
+
+
+/* Jontes sida */
+
+#jontebild{
+
+    width: 15em;
+    height: 23em;
+    margin: 2em;
+    float: left;
+}
+
+#jtext{
+
+    font-size: 2em;
+    margin-bottom: 11em;
+
+}
+
+#jstapel1{
+    border: 0.3em cornflowerblue solid;
+    background-color: cornflowerblue;
+    margin-right: 40em;
+    margin-bottom: 2em;
+}
+
+#jstapel2{
+    border: 0.3em cornflowerblue solid;
+    background-color: cornflowerblue;
+    margin-right: 10em;
+    margin-bottom: 2em;
+}
+
+#jstapel3{
+    border: 0.3em cornflowerblue solid;
+    background-color: cornflowerblue;
+    margin-right: 25em;
+    margin-bottom: 2em;
+}
+
+#jstapel4{
+    border: 0.3em cornflowerblue solid;
+    background-color: cornflowerblue;
+    margin-right: 35em;
+    margin-bottom: 2em;
+}
+
+#jstapel5{
+    border: 0.3em cornflowerblue solid;
+    background-color: cornflowerblue;
+    margin-right: 70em;
+    margin-bottom: 2em;
+}
+
