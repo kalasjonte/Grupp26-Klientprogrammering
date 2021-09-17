@@ -291,4 +291,17 @@ textarea{
     #myLinks{
         text-align: center;
     }
+
+}
+@media screen and (max-width: 765px) {
+#bild1{
+    display: none;
+}
+#bild2{
+    display: none;
+}
+#bild3{
+    display: none;
+}
+    
 }
