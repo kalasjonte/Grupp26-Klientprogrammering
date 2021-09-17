@@ -1,5 +1,5 @@
 .grad {
-    background-image: linear-gradient( rgb(160, 216, 233), rgb(70, 145, 155));
+    background-image: linear-gradient( rgb(160, 216, 233), rgb(79, 176, 189));
 }
 
 .grad2 {
@@ -12,12 +12,17 @@ body{
     color: rgb(40, 75, 85);
 }
 
+p{
+    font-size: 0.5em;
+}
+
 #menu {
-    border-style: none;
+    border: solid rgb(5, 131, 131) 0.01em;
     color: rgb(248, 248, 248);
     text-align: center;
     font-size: 50px;
     margin: 0;
+    text-shadow: 0.03em 0.03em rgb(85, 84, 84);
 
 }
 
@@ -76,7 +81,10 @@ li{
 #vpre{
     margin-bottom: 25em;
     margin-top: 2em;
-    
+}
+
+#vptext{
+    font-size: 1em;
 }
 
 #vilmabild{
@@ -91,8 +99,8 @@ li{
 }
 
 #vstapel1{
-    border: 0.3em cornflowerblue solid;
-    background-color: cornflowerblue;
+    border: 0.01em rgba(94, 40, 94, 0.541) solid;
+    background-color: rgba(182, 68, 182, 0.63);
     margin-right: 10em;
 }
 
@@ -199,6 +207,10 @@ li{
 
 }
 
+#meddrubrik{
+    font-size: 1.5em;
+}
+
 label{
     margin: 2em;
 
@@ -251,7 +263,7 @@ textarea{
 #astapel4{
     border: 0.3em cornflowerblue solid;
     background-color: cornflowerblue;
-    margin-right: 10em;
+    margin-right: 60em;
     margin-bottom: 2em;
 }
 #astapel5{
@@ -262,4 +274,21 @@ textarea{
 }
 #amanda{
     float: left;
+
+}
+
+@media screen and (min-width: 768px){
+    #menu{
+        display: none;
+    }
+    .show{
+        display: inline;
+    }
+    li{
+        display: inline;
+        padding-right: 1,5em;
+    }
+    #myLinks{
+        text-align: center;
+    }
 }
