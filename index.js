@@ -199,7 +199,7 @@ $( document ).ready(function() {
     
 
     }
-
+    $('#astapel1').hover('show');
    
 })
 

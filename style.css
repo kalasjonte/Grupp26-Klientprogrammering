@@ -274,4 +274,21 @@ textarea{
 }
 #amanda{
     float: left;
+
+}
+
+@media screen and (min-width: 768px){
+    #menu{
+        display: none;
+    }
+    .show{
+        display: inline;
+    }
+    li{
+        display: inline;
+        padding-right: 1,5em;
+    }
+    #myLinks{
+        text-align: center;
+    }
 }
