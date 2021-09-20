@@ -82,6 +82,15 @@ li{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+#portfolio p {
+    font-size: 0.7em;
+}
+
+#portfolio .contentIMG {
+    width: 50%;
+    height: 50%;
+}
+
 
 /*vilmas sida*/
 #vpre{
@@ -279,14 +288,63 @@ textarea{
     margin-right: 10em;
     margin-bottom: 2em;
 }
-#amanda{
-    float: left;
 
-}
 #dataMeny{
     border-style: solid;
     border-color:rgb(47,88, 99);
     text-align: center;
+}
+
+/* Jontes sida */
+
+#jontebild{
+
+    width: 15em;
+    height: 23em;
+    margin: 2em;
+    
+}
+
+#jtext{
+
+    font-size: 2em;
+    margin-bottom: 11em;
+
+}
+
+#jstapel1{
+    border: 0.3em cornflowerblue solid;
+    background-color: cornflowerblue;
+    margin-right: 40em;
+    margin-bottom: 2em;
+}
+
+#jstapel2{
+    border: 0.3em cornflowerblue solid;
+    background-color: cornflowerblue;
+    margin-right: 10em;
+    margin-bottom: 2em;
+}
+
+#jstapel3{
+    border: 0.3em cornflowerblue solid;
+    background-color: cornflowerblue;
+    margin-right: 25em;
+    margin-bottom: 2em;
+}
+
+#jstapel4{
+    border: 0.3em cornflowerblue solid;
+    background-color: cornflowerblue;
+    margin-right: 35em;
+    margin-bottom: 2em;
+}
+
+#jstapel5{
+    border: 0.3em cornflowerblue solid;
+    background-color: cornflowerblue;
+    margin-right: 70em;
+    margin-bottom: 2em;
 }
 
 
@@ -344,75 +402,79 @@ h2 {
     font-size: 0.9em;
 }
 
+h3 {
+    font-size: 0.7em;
+}
+
+#index p {
+    font-size: 0.4em;
+}
+
 .bildspel {
     width: 70%;
     height: 70%;
 }
 
-#portfolio p {
-    font-size: 0.7em;
+#jontebild {
+    float: none;
 }
 
-#portfolio .contentIMG {
-    width: 50%;
-    height: 50%;
-}
-
-}
-
-
-
-/* Jontes sida */
-
-#jontebild{
-
-    width: 15em;
-    height: 23em;
-    margin: 2em;
-    float: left;
-}
-
-#jtext{
-
-    font-size: 2em;
-    margin-bottom: 11em;
-
+#jtext {
+    font-size: 1em;
+    margin-bottom: 0em;
 }
 
 #jstapel1{
-    border: 0.3em cornflowerblue solid;
-    background-color: cornflowerblue;
-    margin-right: 40em;
-    margin-bottom: 2em;
+    margin-right: 9em;
+    
 }
 
 #jstapel2{
-    border: 0.3em cornflowerblue solid;
-    background-color: cornflowerblue;
-    margin-right: 10em;
-    margin-bottom: 2em;
+    margin-right: 8em;
+    
 }
 
 #jstapel3{
-    border: 0.3em cornflowerblue solid;
-    background-color: cornflowerblue;
-    margin-right: 25em;
-    margin-bottom: 2em;
+    margin-right: 0.5em;
+    
 }
 
 #jstapel4{
-    border: 0.3em cornflowerblue solid;
-    background-color: cornflowerblue;
-    margin-right: 35em;
-    margin-bottom: 2em;
+    margin-right: 6em;
+    
 }
 
 #jstapel5{
-    border: 0.3em cornflowerblue solid;
-    background-color: cornflowerblue;
     margin-right: 70em;
-    margin-bottom: 2em;
+    
 }
+
+#astapel1{
+    margin-right: 4em;
+}
+
+#astapel2{
+    margin-right: 1em;
+}
+
+#astapel3{
+    margin-right: 0.1em;
+}
+
+#astapel4{
+    margin-right: 10em;
+}
+
+#astapel5{
+    margin-right: 0.5em;
+}
+
+
+
+
+}
+
+
 
 a {
     color: rgb(47, 88, 99);
