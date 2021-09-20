@@ -31,6 +31,12 @@ p{
     margin-top: 10px;
     
 }
+#pil{
+    width: 1em;
+    height: auto;
+}
+
+
 
 .bildspel {
     width: 15em;
@@ -54,7 +60,7 @@ ul {
     font-size: 30px;
     margin: 1em;
     color: rgb(47, 88, 99);
-    border-bottom: dotted rgb(5, 131, 131);
+    
 }
 
 
@@ -324,10 +330,7 @@ textarea{
 }
 #meddrubrik{
     font-size: 100%;
-}
-
-
-    
+}   
 }
 
 
@@ -387,5 +390,9 @@ a {
     color: rgb(47, 88, 99);
     text-decoration: underline;
     margin-right: 1em;
+}
+#nextImage{
+    background-image: linear-gradient( rgb(160, 216, 233), rgb(79, 176, 189));
+    border: white;
 }
 
