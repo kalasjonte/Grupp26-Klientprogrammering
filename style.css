@@ -358,6 +358,9 @@ h2 {
     height: 50%;
 }
 
+#pic{
+    width: 80%;
+}
 }
 
 
@@ -422,5 +425,8 @@ a {
 #nextImage{
     background-image: linear-gradient( rgb(160, 216, 233), rgb(79, 176, 189));
     border: white;
+}
+.presentation{
+    font-size: 2em;
 }
 
