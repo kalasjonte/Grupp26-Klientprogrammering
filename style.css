@@ -277,6 +277,12 @@ textarea{
     float: left;
 
 }
+#dataMeny{
+    border-style: solid;
+    border-color:rgb(47,88, 99);
+    text-align: center;
+}
+
 
 @media screen and (min-width: 768px){
     #menu{
@@ -292,7 +298,7 @@ textarea{
     #myLinks{
         text-align: center;
     }
-
+    
 }
 @media screen and (max-width: 765px) {
 #bild1{
@@ -375,5 +381,11 @@ textarea{
     background-color: cornflowerblue;
     margin-right: 70em;
     margin-bottom: 2em;
+}
+
+a {
+    color: rgb(47, 88, 99);
+    text-decoration: underline;
+    margin-right: 1em;
 }
 
