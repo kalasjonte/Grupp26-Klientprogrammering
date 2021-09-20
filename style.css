@@ -330,8 +330,36 @@ textarea{
 }
 #meddrubrik{
     font-size: 100%;
-}   
 }
+
+#bagage {
+    display: none;
+}
+
+h1 {
+    font-size: 1.1em;
+}
+
+h2 {
+    font-size: 0.9em;
+}
+
+.bildspel {
+    width: 70%;
+    height: 70%;
+}
+
+#portfolio p {
+    font-size: 0.7em;
+}
+
+#portfolio .contentIMG {
+    width: 50%;
+    height: 50%;
+}
+
+}
+
 
 
 /* Jontes sida */
