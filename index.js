@@ -15,6 +15,13 @@ $( document ).ready(function() {
     
     function bildspel(e){
         console.log(index)
+        let width = window.innerWidth;
+        if(width> 768) {
+            // var img1 = $("<img></img>");
+            // img1.attr('id', 'bild1')
+            // img1.addClass('bildspel')
+            // setBilder();
+            // $("#bilder").append(img1);
         if (index > pics.length) {
             index = 0;
         }
@@ -65,6 +72,48 @@ $( document ).ready(function() {
                     index= 0;
                     
                     }    
+                }
+        else if (width < 768) {
+            console.log('else if')
+            if (index > pics.length) {
+                index = 0;
+            }
+            if( index == 0){
+            $('#bild4').fadeOut(3000 , function() {   
+            $('#bild4').attr('src', pics[0])
+            $('#bild4').fadeIn(3000)
+            })
+            index++;
+    
+            
+            } 
+            else if ( index == 1){
+             
+                $('#bild4').fadeOut(3000 , function() {
+                $('#bild4').attr('src', pics[1])
+                $('#bild4').fadeIn(3000)
+                })
+                index++;
+                
+                }
+                else if ( index == 2){
+             
+                    $('#bild4').fadeOut(3000 , function() {
+                    $('#bild4').attr('src', pics[2])
+                    $('#bild4').fadeIn(3000)
+                    })
+                    index++;
+                    
+                    }    
+                else if ( index == 3){
+                        $('#bild4').fadeOut(3000 , function() {
+                        $('#bild4').attr('src', pics[3])
+                        $('#bild4').fadeIn(3000)
+                        })
+                        index= 0;
+                        
+                        }
+        }
     }
 
     var interval = null;

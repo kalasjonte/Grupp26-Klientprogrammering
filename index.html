@@ -12,8 +12,9 @@
 
     <div id="bilder">
         <button id="nextImage">Starta bildspel</button>
-        <img class="bildspel" id="bild1" src="" alt=""> <img class="bildspel" class= "visar" id="bild2" src="" alt="">
-         <img class="bildspel" class ="visar" id="bild3" src="" alt=""> <img class="bildspel" class= "visar" id="bild4" src="" alt="">
+        <img class="bildspel" id="bild1" src="" alt=""> <img class="bildspel"  id="bild2" src="" alt="">
+         <img class="bildspel"  id="bild3" src="" alt="">
+          <img class="bildspel"  id="bild4" src="" alt="">
     </div>
 
     <div id="test" class="grad">
@@ -80,17 +81,19 @@
     </div>
     <div id="kontakt">
         <h4 id="meddrubrik">Skicka ett meddelande till oss</h4>
-        <form action="/index.html" method="GET">
-        <label for="namn">Ditt namn: <p id="namnERR"></p></label> <br>
-        <input type="text" id="namn" name="namn" class="inputs"> <br>
-        <label for="tele">Ditt telefonnummer: (format : 07...) <p id="teleERR"></p></label> <br>
-        <input id="tele" type="tel" name="telefonnmr" class="inputs"> <br>
-        <label for="email">Din email: <p id="emailERR"></p></label> <br> 
-        <input type="email" id="email" name="mail" class="inputs"> <br> 
-        <label for="textfield">Ditt meddelande: <p id="textERR"></p></label> <br> 
-        <textarea name="textarea" id="textfield" cols="30" rows="10" class="inputs" ></textarea> 
-        <input type="submit" id="submit" name="knapp" value="Skicka"> 
-    </form>
+        <div id="kontakt-forms">
+            <form action="/index.html" method="GET">
+                <label for="namn">Ditt namn: <p id="namnERR"></p></label> <br>
+                <input type="text" id="namn" name="namn" class="inputs"> <br>
+                <label for="tele">Ditt telefonnummer: (format : 07...) <p id="teleERR"></p></label> <br>
+                <input id="tele" type="tel" name="telefonnmr" class="inputs"> <br>
+                <label for="email">Din email: <p id="emailERR"></p></label> <br> 
+                <input type="email" id="email" name="mail" class="inputs"> <br> 
+                <label for="textfield">Ditt meddelande: <p id="textERR"></p></label> <br> 
+                <textarea name="textarea" id="textfield" cols="30" rows="10" class="inputs" ></textarea> 
+                <input type="submit" id="submit" name="knapp" value="Skicka"> 
+            </form>
+        </div>
     </div>
     <script src="index.js"></script>
 </body>

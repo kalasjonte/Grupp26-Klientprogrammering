@@ -197,6 +197,7 @@ li{
 }
 
 #kontakt{
+    width: 80%;
     border: solid rgb(47,88, 99);
     border-radius: 2em;
     margin: 2em;
@@ -205,7 +206,7 @@ li{
     font-size: 1em;
     margin-right: 40em;
 
-}
+} 
 
 #meddrubrik{
     font-size: 1.5em;
@@ -303,6 +304,23 @@ textarea{
 #bild3{
     display: none;
 }
+#kontakt{
+    width: 70%;
+    margin:0em;
+    font-size: 1em;
+}
+.inputs{
+    width: 60%;
+}
+
+#kontakt-forms label{
+    font-size: 80%;
+}
+#meddrubrik{
+    font-size: 100%;
+}
+
+
     
 }
 
