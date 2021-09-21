@@ -308,14 +308,16 @@ function showFullScreen(){
 // import fs from "fs"
 // const fs = require("fs");
 
-// let obj = {
-//     name: $('#namn').value(),
-//     phone: $('#tele').value(),
-//     email: $('#email').val(),
-//     msg: $('#textfield').val()
-// }
+let obj = {
+    name: $('#namn').value(),
+    phone: $('#tele').value(),
+    email: $('#email').val(),
+    msg: $('#textfield').val()
+}
 
-// const jsonString = JSON.stringify(obj);
+const jsonString = JSON.stringify(obj);
+
+
 
 // fs.writeFile('form')
 
