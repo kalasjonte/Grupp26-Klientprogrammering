@@ -283,31 +283,26 @@ $( document ).ready(function() {
     
 
     }
-
-
-    $('#astapel1').hover('show');
-
-    document.addEventListener("keydown", function(e){
-        //var keyCode = e.keyCode ? e.keyCode : e.which;
-        // console.log();
-        if(e.key == "Enter"){
-            showFullScreen();
-        }
-        else {
-            console.log("nej");
-        }
-    })
-
-    function showFullScreen(){
-        if(!document.fullscreenElement){
-            document.documentElement.requestFullscreen();
-        }
-        else{
-            document.exitFullscreen();
-        }
-    }
+    
     
    
 })
+document.addEventListener("keydown", function(e){
+    if(e.key == "Enter"){
+        showFullScreen();
+    }
+    else {
+        console.log("nej");
+    }
+})
+
+function showFullScreen(){
+    if(!document.fullscreenElement){
+        document.documentElement.requestFullscreen();
+    }
+    else{
+        document.exitFullscreen();
+    }
+}
 
            
