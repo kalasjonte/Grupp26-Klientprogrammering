@@ -87,9 +87,19 @@ li{
 }
 
 #portfolio .contentIMG {
-    width: 50%;
-    height: 50%;
+    width: 10em;
+    height: 10em;
 }
+
+#portfolio .arbeten {
+    display: inline-flex;
+    border-style: solid;
+}
+
+
+
+
+
 
 
 /*vilmas sida*/
