@@ -168,7 +168,7 @@ $( document ).ready(function() {
         $("#jBild").fadeOut(1000);
     }
 
-    // $('#submit').on('click', submitForm);
+  
     $('.inputs').keyup(function(){
         namnValidation()
         teleValidation()
@@ -305,4 +305,28 @@ function showFullScreen(){
     }
 }
 
+// import fs from "fs"
+// const fs = require("fs");
+
+// let obj = {
+//     name: $('#namn').value(),
+//     phone: $('#tele').value(),
+//     email: $('#email').val(),
+//     msg: $('#textfield').val()
+// }
+
+// const jsonString = JSON.stringify(obj);
+
+// fs.writeFile('form')
+
+// function storeData(){
+//     fs.writeFile("form.json", JSON.stringify(obj)), function(err){
+//         if (err) throw err;
+//         console.log('complete');
+// }
+
+// $("#submit").addEventListener("klick", storeData);
+
+
+// }
            
