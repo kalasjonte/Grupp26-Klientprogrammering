@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<projects>
+    <arbete id='a1'>
+        <image>/images/1.jpg</image>
+        <title>Men in Black -- Java projekt</title>
+        <customer>KUND: Örebro universitet</customer>
+        <start>Start datum: 10/12-2020</start>
+        <done>Slut datum: 1/1-2021</done>
+        <description>Men in black var vårat första programmeringsuppdrag. Det skrevs i Java med en databas som var skriven i Mysql. Men in black var en uppförsbacke med priset att våra programmeringskunskaper slipades på intensivt. </description>
+    </arbete>
+    <arbete id='a2'>
+        <image>/images/1.jpg</image>
+        <title>Interaktionsdesign - Designa en app för örebro</title>
+        <customer>KUND: Örebro universitet</customer>
+        <start>Start datum: 1/5-2021</start>
+        <done>Slut datum: 1/6-2021</done>
+        <description>Interaktionskursen begav sig under våren 2021. Vårt uppdrag här var att grafiskt designa en app i låg, såväl hifi prototyper. Här fick vi studera diverse design teorier och lära oss hur en användavänlig applikation bör se ut.</description>
+    </arbete>
+    <arbete id='a3'>
+        <image>/images/1.jpg</image>
+        <title>SCRUM och XP projekt</title>
+        <customer>KUND : Örebro universitet</customer>
+        <start>Start datum: 8/3-2021</start>
+        <done>Slut datum: 31/4-2021</done>
+        <description>I scrum projektet fick vi testa på att utveckla ett system i java, med stöd från metoderna inom SCRUM och XP. Slutprodukten blev ett forumliknande imageboard.</description>
+    </arbete>
+    <arbete id='a4'>
+        <image>/images/1.jpg</image>
+        <title>Rabattkod tracker</title>
+        <customer>KUND : Elon Musk</customer>
+        <start>Start datum: 8/7-2005</start>
+        <done>Slut datum: 19/5-2011</done>
+        <description> Elon Musk kontaktade en 6årig Amanda Mathisen och ville att hon skapade en hemsida som höll koll på alla rabattkoder som fanns för raketbränsle. Tyvärr tog det ett par år för Amanda att utveckla, då dagis och lågstadiet fick prioritet </description>
+    </arbete>
+    <arbete id='a5'>
+        <image>/images/1.jpg</image>
+        <title>Twitter interface</title>
+        <customer>KUND: Mark Zuckerberg</customer>
+        <start>Start datum: ~2008</start>
+        <done>Slut datum: 31/5-2015</done>
+        <description> Makke kom över på en kaffe och beskrev en platform där alla skulle få yttra sina tankar, men med begränsning på hur många ord man fick skriva. Han bad oss skissa upp en design, och just i den stunden kvittrade fåglarna utanför fönstret när de flög över den ljusblåa vänern. Undra vart vi fick inspiration?  </description>
+    </arbete>
+</projects>
