@@ -1,5 +1,7 @@
 $( document ).ready(function() {
 
+    fyllIKontakt();
+
     var pics = ["images/1.jpg", "images/2.webp", "images/3.jpg", "images/4.jpg"]
 
     function setBilder() {
@@ -177,25 +179,21 @@ $( document ).ready(function() {
 
     })
     
-    // $('.inputs').click(
-    //     function(){
-    //         $(this).val('').css({'color': 'black'})
-    //     });
-
-    function submitForm(e) {
-        e.preventDefault();
-        validation();
-    }
 
     function validation() {
-        let namnfield = $('#namn').val();
-        let telefon = $('#tele').val();
-        let email = $('#email').val();
-        let msg = $('#textfield').val();
-        namnValidation();
-        teleValidation();
-        emailValidation(),
-        msgValidation();
+        namnValidation()
+        teleValidation()
+        emailValidation()
+        msgValidation()
+       if(namnValidation() && teleValidation() && emailValidation() && msgValidation()) {
+        storeData()
+        window.alert('Tack för ditt meddellande <3')
+       } 
+
+       else {
+           window.alert('Kontrollera fälten')
+       }
+        
     }
 
     function namnValidation() {
@@ -204,21 +202,26 @@ $( document ).ready(function() {
         var mellanslag = /^[\s.]+$/
         if(namnfield == '') {
             $('#namnERR').text('Var vänlig och fyll i fältet').css({ 'color': 'red'})
+            return false;
         }
         else if(namnfield.length > 30 || namnfield.length < 3) {
             $('#namnERR').text('Minst 3 och högst 30 tecken!').css({ 'color': 'red'})
+            return false;
         } 
 
         else if (namnfield.match(mellanslag)) {
             $('#namnERR').text('Mellanslag är inget namn').css({ 'color': 'red'})
+            return false;
         }
         
         else if(!namnfield.match(letters)) {
             $('#namnERR').text('Endast bokstäver och mellanslag').css({ 'color': 'red'})
+            return false;
         }
 
         else {
             $('#namnERR').text('')
+            return true;
         }
         
 
@@ -231,23 +234,28 @@ $( document ).ready(function() {
 
         if(telefield == '') {
             $('#teleERR').text('Var vänlig och fyll i fältet').css({ 'color': 'red'})
+            return false;
         }
 
         else if(telefield.match(letters) || telefield.match(mellanslag) ) {
             $('#teleERR').text('Bara nummer här!').css({ 'color': 'red'})
+            return false;
         }
         
         else if(telefield.length != 10 ) {
             $('#teleERR').text('10 tecken behövs').css({ 'color': 'red'})
+            return false;
         } 
 
         else if(telefield.match(mellanslag))
         {
             $('#teleERR').text('Kontrollera formatet').css({ 'color': 'red'})
+            return false;
         }
 
         else {
             $('#teleERR').text('')
+            return true;
         }
 
         
@@ -260,13 +268,16 @@ $( document ).ready(function() {
 
         if(emailField == '') {
             $('#emailERR').text('Var vänlig och fyll i fältet').css({ 'color': 'red'})
+            return false;
         }
 
         else if(!emailField.match(mailFormat)) {
             $('#emailERR').text('Kontrollera email format').css({ 'color': 'red'})
+            return false;
         }
         else {
             $('#emailERR').text('')
+            return true;
         }
         
     }
@@ -275,16 +286,44 @@ $( document ).ready(function() {
         let msg = $('#textfield').val();
         if(msg == '') {
             $('#textERR').text('Var vänlig och fyll i fältet').css({ 'color': 'red'})
+            return false;
         }
 
         else {
             $('#textERR').text('')
+            return true;
         }
     
 
     }
-    
-    
+
+     $("#submit").click(function(event){
+         event.preventDefault();
+         validation();
+     })
+
+        function storeData(){
+         window.localStorage.setItem('name',$('#namn').val())
+         window.localStorage.setItem('phone',$('#tele').val())
+         window.localStorage.setItem('email',$('#email').val())
+         window.localStorage.setItem('msg',$('#textfield').val())
+        }
+     
+
+     function fyllIKontakt(){
+       let namn=  window.localStorage.getItem('name')
+       let tele = window.localStorage.getItem('phone')
+       let email =  window.localStorage.getItem('email')
+       let msg =  window.localStorage.getItem('msg')
+       $('#namn').val(namn)
+       $('#tele').val(tele)
+       $('#email').val(email)
+       $('#textfield').val(msg)
+       namnValidation()
+       teleValidation()
+       msgValidation()
+       emailValidation()
+     }
    
 })
 document.addEventListener("keydown", function(e){
@@ -304,31 +343,4 @@ function showFullScreen(){
         document.exitFullscreen();
     }
 }
-
-// import fs from "fs"
-// const fs = require("fs");
-
-let obj = {
-    name: $('#namn').value(),
-    phone: $('#tele').value(),
-    email: $('#email').val(),
-    msg: $('#textfield').val()
-}
-
-const jsonString = JSON.stringify(obj);
-
-
-
-// fs.writeFile('form')
-
-// function storeData(){
-//     fs.writeFile("form.json", JSON.stringify(obj)), function(err){
-//         if (err) throw err;
-//         console.log('complete');
-// }
-
-// $("#submit").addEventListener("klick", storeData);
-
-
-// }
            
