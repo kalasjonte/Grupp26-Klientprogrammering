@@ -3,38 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="style.css">
+
     <title>Amandas sida</title>
 </head>
 <body  class="grad2">
     <div id="bilder">
-        <button id="nextImage">Starta bildspel</button>
         <img class="bildspel" id="bild1" src="" alt=""> <img class="bildspel" id="bild2" src="" alt="">
          <img class="bildspel" id="bild3" src="" alt=""> <img class="bildspel" id="bild4" src="" alt="">
     </div>
+
     <div id="rubrik">
         <div id="vmenu" class="grad"></div>
         
     </div>
+    <button id="nextImage">Starta bildspel</button>
     <div id="test" class="grad">
-        <h1 id='menu' >Meny <img src="pil.png" alt="" class="pilmenu" /> </h1>   
+        <h1 id='menu' >Meny <img src="pil.png" id= "pil" alt="" class="pilmenu" /> </h1>   
     </div>
-    <div id="myLinks" class="show" > 
-        <ul>
+    <div id= "dataMeny"> 
+        <ul id="myLinks" class="show">
+            <li><a href="index.html"> Start </a></li>
             <li><a href="presentation.html"> Presentationssida </a></li>
-            <li><a href=""> Kontakt </a></li>
-            <li><a href=""> Om oss </a></li>
+            <li><a href="portfolio.html"> Portfolio </a></li>
+            <li><a href="#kontakt"> Kontakt </a></li>        
+    </ul>
     </div>
 
     <H1 id="vnamn">Amanda Mathisen</H1>
 
-    <div id="vpre">
-        <img id="amanda" src="amanda.jpg">
-        <p id="vptext">Hej jag heter Amanda </p>
-    </div>
+    <div>
+        <img id="amanda" src="amanda.jpg" alt="">
+        <p id="atext">Hej jag heter Amanda </p>
     
     <div id="vdiagram" >
         
@@ -51,6 +53,7 @@
         <div id="astapel5"> <h4 class="tabelltext" >Dataspel</h4></div>
 
     </div>
-    
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>

@@ -9,9 +9,8 @@
     <link rel="stylesheet" href="style.css">
     <title>Jontes sida</title>
 </head>
-<body class="grad2">
+<body id="jonteSida" class="grad2">
     <div id="bilder">
-        <button id="nextImage">Starta bildspel</button>
         <img class="bildspel" id="bild1" src="" alt=""> <img class="bildspel" id="bild2" src="" alt="">
         <img class="bildspel" id="bild3" src="" alt=""> <img class="bildspel" id="bild4" src="" alt="">
     </div>
@@ -19,23 +18,22 @@
     <div id="rubrik">
         <div id="vmenu" class="grad"></div>
     </div>
-
+    <button id="nextImage">Starta bildspel</button>
     <div id="test" class="grad">
-        <h1 id='menu' >Meny <img src="pil.png" alt="" class="pilmenu" /> </h1>   
+        <h1 id='menu' >Meny <img src="pil.png" id= "pil" alt="" class="pilmenu" /> </h1>   
     </div>
 
-    <div id="myLinks" class="show" > 
-        <ul>
+    <div id= "dataMeny"> 
+        <ul id="myLinks" class="show">
+            <li><a href="index.html"> Start </a></li>
             <li><a href="presentation.html"> Presentationssida </a></li>
-            <li><a href=""> Kontakt </a></li>
-            <li><a href=""> Om oss </a></li>
+            <li><a href="portfolio.html"> Portfolio </a></li>
+            <li><a href="#kontakt"> Kontakt </a></li>        
+    </ul>
     </div>
-
-    <img id="jontebild" src="jonte.jpg">
-
+    <div>
+    <img id="jontebild" src="jonte.jpg" alt="">
     <p id="jtext">Hejsan svejsan lillebror! Jag gillar hockey, öl och kolla på brudar i bikini på stranden.</p>
-
-
     <div id="vdiagram" >
         
         <h3 id="tabellrubrik">Egenskaper</h3>
@@ -50,6 +48,7 @@
 
         <div id="jstapel5"> <h4 class="tabelltext" >Krydda maten</h4></div>
 
+    </div>
     </div>
 
 </body>

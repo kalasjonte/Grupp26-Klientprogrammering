@@ -6,27 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Första sidan</title>
 </head>
-<body class="grad2">
+<body id="index" class="grad2">
 
     <div id="bilder">
-        <button id="nextImage">Starta bildspel</button>
+        
         <img class="bildspel" id="bild1" src="" alt=""> <img class="bildspel"  id="bild2" src="" alt="">
          <img class="bildspel"  id="bild3" src="" alt="">
           <img class="bildspel"  id="bild4" src="" alt="">
     </div>
-
-    <div id="test" class="grad">
-        <h1 id='menu' >Meny <img src="pil.png" alt="" class="pilmenu" /> </h1>   
+    <div> <button id="nextImage">Starta bildspel</button> </div>
+    <div id="test" class="grad">        
+        <h1 id='menu' >Meny <img src="pil.png" id= "pil" alt="" class="pilmenu" /> </h1>   
     </div>
     <div id= "dataMeny"> 
         <ul id="myLinks" class="show">
+            <li><a href="index.html"> Start </a></li>
             <li><a href="presentation.html"> Presentationssida </a></li>
             <li><a href="portfolio.html"> Portfolio </a></li>
-            <li><a href=""> Kontakt </a></li>
-            <li><a href=""> Om oss </a></li>
-        
+            <li><a href="#kontakt"> Kontakt </a></li>    
     </ul>
     </div>
     <div id="text">
@@ -83,13 +82,13 @@
         <h4 id="meddrubrik">Skicka ett meddelande till oss</h4>
         <div id="kontakt-forms">
             <form action="/index.html" method="GET">
-                <label for="namn">Ditt namn: <p id="namnERR"></p></label> <br>
+                <label for="namn">Ditt namn:</label> <p id="namnERR"></p> <br>
                 <input type="text" id="namn" name="namn" class="inputs"> <br>
-                <label for="tele">Ditt telefonnummer: (format : 07...) <p id="teleERR"></p></label> <br>
+                <label for="tele">Ditt telefonnummer: (format : 07...) </label> <p id="teleERR"></p> <br>
                 <input id="tele" type="tel" name="telefonnmr" class="inputs"> <br>
-                <label for="email">Din email: <p id="emailERR"></p></label> <br> 
+                <label for="email">Din email:</label> <p id="emailERR"></p><br> 
                 <input type="email" id="email" name="mail" class="inputs"> <br> 
-                <label for="textfield">Ditt meddelande: <p id="textERR"></p></label> <br> 
+                <label for="textfield">Ditt meddelande:</label>  <p id="textERR"></p><br> 
                 <textarea name="textarea" id="textfield" cols="30" rows="10" class="inputs" ></textarea> 
                 <input type="submit" id="submit" name="knapp" value="Skicka"> 
             </form>

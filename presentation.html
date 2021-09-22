@@ -9,25 +9,23 @@
     <script src="index.js"></script>
     <title>Document</title>
 </head>
-<body  class="grad2">
+<body  id="presentation" class="grad2">
 
     <div id="bilder">
-        <button id="nextImage">Starta bildspel</button>
-        <!-- <img class="bildspel" id="bild1" src="" alt=""> <img class="bildspel" id="bild2" src="" alt="">
-         <img class="bildspel" id="bild3" src="" alt="">  -->
+        <img class="bildspel" id="bild1" src="" alt=""> <img class="bildspel" id="bild2" src="" alt="">
+         <img class="bildspel" id="bild3" src="" alt=""> 
          <img class="bildspel" id="bild4" src="" alt="">
     </div>
-
+    <button id="nextImage">Starta bildspel</button>
     <div id="test" class="grad">
-        <h1 id='menu' >Meny <img src="pil.png" alt="" class="pilmenu" /> </h1>   
+        <h1 id='menu' >Meny <img src="pil.png" id= "pil" alt="" class="pilmenu" /> </h1>   
     </div>
-    <div> 
+    <div id= "dataMeny"> 
         <ul id="myLinks" class="show">
+            <li><a href="index.html"> Start </a></li>
             <li><a href="presentation.html"> Presentationssida </a></li>
             <li><a href="portfolio.html"> Portfolio </a></li>
-            <li><a href=""> Kontakt </a></li>
-            <li><a href=""> Om oss </a></li>
-        
+            <li><a href="#kontakt"> Kontakt </a></li>        
     </ul>
     </div>
 
@@ -35,12 +33,14 @@
         <div id="namnp">
             <h1>Grupp 26</h1>
             <h4>Består av:</h4>
-            <img id="aBild" src="images/3.jpg" alt="">
             <p><a id="aLink"class= "animate" href="Amanda.html"> Amanda Mathisen </a></p>
-            <img id="vBild"src="images/2.webp" alt="">
             <p><a id="vLink" class= "animate" href="Vilma.html"> Vilma Ottner </a></p>
-            <img id='jBild' src="images/1.jpg" alt="">
             <p><a id="jLink" class= "animate" href="Jonte.html"> Jonathan fucking åmål Gabrielsson </a></p>
+        <span id="hoverPics">
+            <img id="aBild" src="images/3.jpg" alt="">
+            <img id="vBild"src="images/2.webp" alt="">
+            <img id='jBild' src="images/1.jpg" alt="">
+        </span>
         </div>
         <div>
             <h2>Vilka är vi?</h2>
@@ -53,7 +53,7 @@
             <p>Vi är en extremt bra grupp med massor av erfarenhet</p>
         </div>
         <div>
-            <img src="images/1.jpg" alt="">
+            <img src="images/1.jpg" id="pic" alt="">
         </div>
     </div>
    
