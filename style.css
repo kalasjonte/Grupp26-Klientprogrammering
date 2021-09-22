@@ -82,8 +82,14 @@ li{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+#infoText {
+    border: purple dashed;
+    margin: 1em;
+}
+
 #portfolio p {
-    font-size: 0.7em;
+    font-size: 1em;
+    margin-left: 5em;
 }
 
 #portfolio .contentIMG {
@@ -480,6 +486,21 @@ h3 {
 
 #astapel5{
     margin-right: 0.5em;
+}
+
+#portfolio .arbeten{
+    display:inline-table;
+    width: 10em;
+    margin: 0.4em;
+}
+
+#portfolio p {
+    color: crimson;
+    font-size: 0.7em;
+}
+
+.arbeten i {
+    color:forestgreen;
 }
 
 

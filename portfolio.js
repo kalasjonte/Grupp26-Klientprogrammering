@@ -42,9 +42,6 @@ $( document ).ready(function() {
             description.appendChild(document.createTextNode(getXmlValue(arbete[index], 'description')));
             container.appendChild(description);
 
-            hr = document.createElement('hr');
-            container.appendChild(hr)
-
             document.getElementById('xml').appendChild(container)
 
             
