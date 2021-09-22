@@ -206,19 +206,35 @@ li{
     width: 4em;
     height: 4em;
     position: relative; 
-    float: right;
-    right: 35em ;
-   
+    right: 8em; 
+    bottom: 2.5em;
 }
 
 #aBild{
     display: none;
     width: 4em;
     height: 4em;
-    float: right;
     position: relative; 
-    right: 35em;
+    left: 4em;
+    bottom: 2.5em; ;
 
+}
+#vBild{
+    display: none;
+    width: 5em;
+    height: 4em;
+    position: relative; 
+    right: 4em;
+    bottom: 2.5em;
+}
+
+
+#hoverPics{
+    position: absolute;
+}
+
+#namnp{
+    position: relative;
 }
 
 #kontakt{
@@ -258,14 +274,6 @@ textarea{
 #submit{
     color: rgb(47, 88, 99);
     padding: 0.6em 2em;
-}
-#vBild{
-    display: none;
-    width: 4em;
-    height: 4em;
-    float: right;
-    position: relative; 
-    right: 35em;
 }
 
 #astapel1{
