@@ -221,8 +221,8 @@ li{
     width: 4em;
     height: 4em;
     position: relative; 
-    right: 8em; 
-    bottom: 2.5em;
+    left: 8em; 
+    bottom: 4em;
 }
 
 #aBild{
@@ -231,7 +231,7 @@ li{
     height: 4em;
     position: relative; 
     left: 4em;
-    bottom: 2.5em; ;
+    bottom: 10em; ;
 
 }
 #vBild{
@@ -239,8 +239,8 @@ li{
     width: 5em;
     height: 4em;
     position: relative; 
-    right: 4em;
-    bottom: 2.5em;
+    right: 8em;
+    bottom: 8em;
 }
 
 
@@ -251,6 +251,13 @@ li{
 #namnp{
     position: relative;
 }
+
+.animate{
+    margin-bottom: 5em;
+}
+
+
+
 
 #kontakt{
     width: 80%;
