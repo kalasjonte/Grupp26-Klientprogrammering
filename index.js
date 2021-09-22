@@ -1,6 +1,12 @@
 $( document ).ready(function() {
 
+    var title = document.title;
+    console.log(title)
 
+    if(title == 'Första sidan' ){
+        fyllIKontakt();
+    }
+    
     var pics = ["images/1.jpg", "images/2.webp", "images/3.jpg", "images/4.jpg"]
 
     function setBilder() {
@@ -169,8 +175,6 @@ $( document ).ready(function() {
     function jbild2(){
         $("#jBild").fadeOut(1000);
     }
-
-    fyllIKontakt();
 
   
     $('.inputs').keyup(function(){

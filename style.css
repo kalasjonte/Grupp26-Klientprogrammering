@@ -82,8 +82,21 @@ li{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+#infoText {
+    border: purple dashed;
+    margin: 1em;
+}
+
 #portfolio p {
-    font-size: 0.7em;
+    font-size: 1em;
+    
+}
+
+#portfolio i {
+   margin-top: 1em;
+   margin-left: 1em;
+   margin-right: 1em;
+   color: green;
 }
 
 #portfolio .contentIMG {
@@ -95,6 +108,8 @@ li{
     display: inline-flex;
     border-style: solid;
 }
+
+
 
 
 
@@ -489,6 +504,24 @@ h3 {
 #astapel5{
     margin-right: 0.5em;
 }
+
+#portfolio .arbeten{
+    display:inline-table;
+    width: 10em;
+    margin: 0.4em;
+}
+
+#portfolio p {
+    color: crimson;
+    font-size: 0.7em;
+}
+
+#portfolio i {
+    color:forestgreen;
+    margin: auto;
+}
+
+
 
 
 
