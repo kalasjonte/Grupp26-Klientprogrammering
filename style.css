@@ -89,7 +89,14 @@ li{
 
 #portfolio p {
     font-size: 1em;
-    margin-left: 5em;
+    
+}
+
+#portfolio i {
+   margin-top: 1em;
+   margin-left: 1em;
+   margin-right: 1em;
+   color: green;
 }
 
 #portfolio .contentIMG {
@@ -101,6 +108,8 @@ li{
     display: inline-flex;
     border-style: solid;
 }
+
+
 
 
 
@@ -499,9 +508,12 @@ h3 {
     font-size: 0.7em;
 }
 
-.arbeten i {
+#portfolio i {
     color:forestgreen;
+    margin: auto;
 }
+
+
 
 
 
