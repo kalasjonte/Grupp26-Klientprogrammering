@@ -224,9 +224,8 @@ a{
     width: 4em;
     height: 4em;
     position: relative; 
-    float: right;
-    right: 35em ;
-   
+    left: 8em; 
+    bottom: 4em;
 }
 
 #aBild{
@@ -235,9 +234,31 @@ a{
     height: 4em;
     float: right;
     position: relative; 
-    right: 35em;
+    left: 4em;
+    bottom: 10em; ;
 
 }
+#vBild{
+    display: none;
+    width: 5em;
+    height: 4em;
+    position: relative; 
+    right: 8em;
+    bottom: 8em;
+}
+
+
+#hoverPics{
+    position: absolute;
+}
+
+
+.animate{
+    margin-bottom: 5em;
+}
+
+
+
 
 #kontakt{
     width: 80%;
