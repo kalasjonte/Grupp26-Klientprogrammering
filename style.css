@@ -1,10 +1,15 @@
 .grad {
-    background-image: linear-gradient( rgb(160, 216, 233), rgb(79, 176, 189));
+    background-image: linear-gradient( rgb(139, 235, 241), rgb(79, 176, 189));
 }
 
 .grad2 {
 
-    background-image: linear-gradient( rgb(227, 237, 252), rgb(172, 210, 235), rgb(5, 131, 131));
+    background-image: linear-gradient( rgb(227, 237, 252), rgb(145, 221, 240), rgb(24, 167, 167));
+   
+}
+
+.grad3 {
+    background-image: linear-gradient(rgb(67, 167, 167), rgb(140, 212, 212), rgba(56, 156, 160, 0.644));
 }
 
 body{
@@ -22,7 +27,7 @@ p{
     text-align: center;
     font-size: 50px;
     margin: 0;
-    text-shadow: 0.03em 0.03em rgb(85, 84, 84);
+    text-shadow: 0.03em 0.03em rgb(139, 139, 139);
 
 }
 
@@ -48,7 +53,7 @@ p{
     display: none;
 }
 
-ul {
+.menylista {
     list-style-type: none;
     text-align: center;
     font-size: 30px;
@@ -66,9 +71,6 @@ a{
 
 #text{
     font-size: 2em;
-}
-li{
-    margin-bottom: 0.7em;
 }
 
 #welcome{
@@ -94,42 +96,83 @@ li{
 }
 
 #vdiagram{
-    border-left: 0.5em solid grey;
     margin-left: 2em;
+    padding-left: 0.2em;   
+    margin-right: 2em;
 }
 
 #vstapel1{
-    border: 0.01em rgba(94, 40, 94, 0.541) solid;
-    background-color: rgba(182, 68, 182, 0.63);
-    margin-right: 10em;
+    border: 0.04em ridge rgba(248, 248, 248, 0.185);
+    margin-right: 17em;
+    border-radius: 1.5em;
+    padding-left: 2em;
+    font-size: 0.83rem;
+    height: 4em;
+    text-shadow: 0.03em 0.03em rgb(153, 153, 153);
 }
 
+
 #vstapel2{
-    border: 0.3em cornflowerblue solid;
-    background-color: cornflowerblue;
+    border: 0.04em ridge rgba(248, 248, 248, 0.185);
     margin-right: 30em;
     margin-top: 2em;
+    border-radius: 1.5em;
+    padding-left: 2em;
+    font-size: 0.83rem;
+    height: 4em;
+    text-shadow: 0.03em 0.03em rgb(153, 153, 153);
+
 }
 
 #vstapel3{
-    border: 0.3em cornflowerblue solid;
-    background-color: cornflowerblue;
+    border: 0.04em ridge rgba(248, 248, 248, 0.185);
     margin-right: 58em;
     margin-top: 2em;
+    border-radius: 1.5em;
+    padding-left: 2em;
+    font-size: 0.83rem;
+    text-shadow: 0.03em 0.03em rgb(153, 153, 153);
+
 }
 
 #vstapel4{
-    border: 0.3em cornflowerblue solid;
-    background-color: cornflowerblue;
+    border: 0.04em ridge rgba(248, 248, 248, 0.185);
     margin-right: 18em;
     margin-top: 2em;
+    border-radius: 1.5em;
+    padding-left: 2em;
+    font-size: 0.83rem;
+    text-shadow: 0.03em 0.03em rgb(153, 153, 153);
 }
 
 #vstapel5{
-    border: 0.3em cornflowerblue solid;
-    background-color: cornflowerblue;
+    border: 0.04em ridge rgba(248, 248, 248, 0.185);
     margin-right: 20em;
     margin-top: 2em;
+    border-radius: 1.5em;
+    padding-left: 2em;
+    font-size: 0.83rem;
+    text-shadow: 0.03em 0.03em rgb(153, 153, 153);
+}
+
+.div1{
+    float:left;
+}
+
+
+
+.yttretabell{
+    border:none;
+    background-image: linear-gradient(rgb(73, 162, 173), rgb(10, 138, 138), rgb(75, 162, 173));
+    border-radius: 1.5em;
+
+}
+
+.procenten{
+    color: white;
+    float: right;
+    padding: 0.1em;
+    margin-right: 1em;
 }
 
 #vnamn{
@@ -148,9 +191,11 @@ li{
 }
 
 #tabellrubrik{
-    color: grey;
-    font-size: 2em;
-    margin-left: 0.5em;
+    color: rgb(252, 249, 249);
+    text-shadow: 0.03em 0.03em rgb(138, 137, 137);
+    font-size: 2.5em;
+    padding-top: 1em;
+    border-bottom: rgb(5, 131, 131) double 0.12em;
 }
 
 .tabelltext{
@@ -282,7 +327,7 @@ textarea{
     border-color:rgb(47,88, 99);
     text-align: center;
 }
-
+/*
 
 @media screen and (min-width: 768px){
     #menu{
@@ -294,12 +339,14 @@ textarea{
     li{
         display: inline;
         padding-right: 1,5em;
-    }
+    
     #myLinks{
         text-align: center;
     }
     
 }
+*/
+
 @media screen and (max-width: 765px) {
 #bild1{
     display: none;
@@ -389,3 +436,101 @@ a {
     margin-right: 1em;
 }
 
+.diagram{
+    width: 600px;
+    height: 300px;
+    display: block;
+}
+
+
+/*
+#testdiagram{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: coral;
+
+}
+
+.nummer{
+    color: black;
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    height: 100%;
+    display: inline-block;
+}
+
+#nummer li{
+    list-style: none;
+    height: 150px;
+    position: relative;
+    bottom: 145px;
+}
+
+#staplar{
+    color: darkblue;
+    font-size: 12px;
+    font-weight: 600;
+    background: darkorchid;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+#staplar li{
+    display: table-cell;
+    width: 100px;
+    height: 300px;
+    position: relative;
+}
+
+#staplar span{
+    width: 100%;
+    position: absolute;
+    bottom: -310px;
+    text-align: center;
+    display: block;
+}
+.sta li{
+    background: darkblue;
+    width: 30px;
+    height: 100px;
+    position: absolute;
+    bottom: 0%;
+}
+
+
+#vstapel2{
+    border: 0.3em cornflowerblue solid;
+    background-color: cornflowerblue;
+    margin-right: 30em;
+    margin-top: 2em;
+}
+
+#vstapel3{
+    border: 0.3em cornflowerblue solid;
+    background-color: cornflowerblue;
+    margin-right: 58em;
+    margin-top: 2em;
+}
+
+#vstapel4{
+    border: 0.3em cornflowerblue solid;
+    background-color: cornflowerblue;
+    margin-right: 18em;
+    margin-top: 2em;
+}
+
+#vstapel5{
+    border: 0.3em cornflowerblue solid;
+    background-color: cornflowerblue;
+    margin-right: 20em;
+    margin-top: 2em;
+*/
