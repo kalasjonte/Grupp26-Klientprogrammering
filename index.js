@@ -148,33 +148,67 @@ $( document ).ready(function() {
     }
 
     
-    $("#aLink").hover(test1, test2);
+    $(".animate").hover(function(event){
+        showPic(event)
+    })
+    // $("#vLink").hover(showPic, hidePic);
+    // $("#jLink").hover(showPic, hidePic);
 
-    function test1(){
-        $("#aBild").fadeIn(2000);
-    }
-    function test2(){
-        $("#aBild").fadeOut(1000);
-    }
+    function showPic(event){
+        console.log(event.currentTarget.firstChild.text)
+        if(event.currentTarget.firstChild.text == "Amanda Mathisen"){
+            $("#aBild").fadeIn(2000);
+            $("#vBild").fadeOut(0);
+            $("#jBild").fadeOut(0);
+        }  
+        if(event.currentTarget.firstChild.text == "Vilma Ottner"){
+            $("#vBild").fadeIn(2000);
+            $("#aBild").fadeOut(0);
+            $("#jBild").fadeOut(0);
+        }
+        if(event.currentTarget.firstChild.text == "Jonathan fucking åmål Gabrielsson"){
+            $("#jBild").fadeIn(2000);
+            $("#aBild").fadeOut(0);
+            $("#vBild").fadeOut(0);
+        }
+        }
+        
+
+        // if(event.currentTarget == $("#vBild")){
+        //     $("#aBild").fadeIn(2000);
+        // }
+        // if(event.currentTarget == $("#jBild")){
+        //     $("#aBild").fadeIn(2000);
+        // }
+    //}
+
+    // function hidePic(e){
+    //     if(e.currentTarget == $("#aBild")){
+    //         $("#aBild").fadeOut(1000);
+    //     }
+    //     if(e.currentTarget == $("#vBild")){
+    //         $("#vBild").fadeOut(1000);
+    //     }
+    //     if(e.currentTarget == $("#jBild")){
+    //         $("#jBild").fadeOut(1000);
+    //     }
+        
+       
+    // }
     
+    // function vBild1(){
+    //     $("#vBild").fadeIn(2000);
+    // }
+    // function vbild2(){
+    //     $("#vBild").fadeOut(1000);
+    // }
 
-    $("#vLink").hover(vBild1, vbild2);
-
-    function vBild1(){
-        $("#vBild").fadeIn(2000);
-    }
-    function vbild2(){
-        $("#vBild").fadeOut(1000);
-    }
-
-    $("#jLink").hover(jBild1, jbild2);
-
-    function jBild1(){
-        $("#jBild").fadeIn(2000);
-    }
-    function jbild2(){
-        $("#jBild").fadeOut(1000);
-    }
+    // function jBild1(){
+    //     $("#jBild").fadeIn(2000);
+    // }
+    // function jbild2(){
+    //     $("#jBild").fadeOut(1000);
+    // }
 
   
     $('.inputs').keyup(function(){

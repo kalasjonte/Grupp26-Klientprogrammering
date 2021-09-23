@@ -223,6 +223,7 @@ li{
     position: relative; 
     left: 8em; 
     bottom: 4em;
+    margin: 0;
 }
 
 #aBild{
@@ -231,7 +232,8 @@ li{
     height: 4em;
     position: relative; 
     left: 4em;
-    bottom: 10em; ;
+    bottom: 10em; 
+    margin: 0em;
 
 }
 #vBild{
@@ -241,6 +243,7 @@ li{
     position: relative; 
     right: 8em;
     bottom: 8em;
+    margin: 0em;
 }
 
 
@@ -255,6 +258,7 @@ li{
 .animate{
     margin-bottom: 5em;
 }
+
 
 
 
@@ -402,6 +406,17 @@ textarea{
     #myLinks{
         text-align: center;
     }
+    #text{
+        margin-left: 5%;
+        float: left;
+        width: 40%;
+    }
+    #kontakt{
+
+        width: 40%;
+        margin-left: 50%;
+        margin-top: 10%;
+    } 
     
 }
 @media screen and (max-width: 765px) {
