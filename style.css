@@ -83,6 +83,33 @@ a{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+#infoText {
+    border: purple dashed;
+    margin: 1em;
+}
+
+
+#portfolio .contentIMG {
+    width: 10em;
+    height: 10em;
+}
+
+#portfolio i {
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    color: green;
+ }
+
+#portfolio p {
+    color: crimson;
+    font-size: 0.7em;
+}
+
+#portfolio .arbeten {
+    display: inline-flex;
+    border-style: solid;
+}
 
 /*vilmas sida*/
 #vpre{
@@ -460,6 +487,24 @@ textarea{
 #meddrubrik{
     font-size: 100%;
 }
+
+#portfolio .arbeten{
+    display: inline-table;
+    width: 10em;
+    margin: 0.4em;
+}
+
+
+
+.arbeten i {
+    color:forestgreen;
+}
+
+.arbeten i {
+    color:forestgreen;
+    margin: auto;
+}
+
 
 }
 
