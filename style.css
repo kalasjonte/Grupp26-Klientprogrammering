@@ -10,6 +10,7 @@
     background-image: linear-gradient(rgb(67, 167, 167), rgb(140, 212, 212), rgba(56, 156, 160, 0.644));
 }
 
+
 body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(40, 75, 85);
@@ -353,10 +354,13 @@ textarea{
 }
 
 #astapel1{
-    border: 0.3em cornflowerblue solid;
-    background-color: cornflowerblue;
-    margin-right: 20em;
-    margin-bottom: 2em;
+    border: 0.04em ridge rgba(248, 248, 248, 0.185);
+    margin-right: 20%;
+    border-radius: 1.5em;
+    padding-left: 2em;
+    font-size: 0.83rem;
+    height: 4em;
+    text-shadow: 0.03em 0.03em rgb(153, 153, 153);
 }
 #astapel2{
     border: 0.3em cornflowerblue solid;
