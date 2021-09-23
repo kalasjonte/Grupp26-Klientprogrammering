@@ -3,7 +3,7 @@ $( document ).ready(function() {
     var xmlFil
     var arbete
     xhr.onload = function() {
-        if(xhr.status === 200)
+
         xmlFil = xhr.responseXML;
         arbete = xmlFil.getElementsByTagName('arbete')
         laddaData();
