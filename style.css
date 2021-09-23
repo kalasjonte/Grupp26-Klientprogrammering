@@ -387,6 +387,11 @@ textarea{
     margin-bottom: 2em;
 }
 
+#bild4 {
+    width: 30em;
+    height: 10em;
+}
+
 
 @media screen and (min-width: 768px){
     #menu{
@@ -405,15 +410,11 @@ textarea{
     
 }
 @media screen and (max-width: 765px) {
-#bild1{
-    display: none;
-}
-#bild2{
-    display: none;
-}
-#bild3{
-    display: none;
-}
+
+#bild4 {
+
+    }    
+
 #kontakt{
     width: 70%;
     margin:0em;
