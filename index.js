@@ -79,30 +79,30 @@ $( document ).ready(function() {
     }
 
     
-    $(".animate").hover(function(event){
-        showPic(event)
-    })
-    // $("#vLink").hover(showPic, hidePic);
-    // $("#jLink").hover(showPic, hidePic);
+    // $(".animate").hover(function(event){
+    //     showPic(event)
+    // })
+    // // $("#vLink").hover(showPic, hidePic);
+    // // $("#jLink").hover(showPic, hidePic);
 
-    function showPic(event){
-        console.log(event.currentTarget.firstChild.text)
-        if(event.currentTarget.firstChild.text == "Amanda Mathisen"){
-            $("#aBild").fadeIn(2000);
-            $("#vBild").fadeOut(0);
-            $("#jBild").fadeOut(0);
-        }  
-        if(event.currentTarget.firstChild.text == "Vilma Ottner"){
-            $("#vBild").fadeIn(2000);
-            $("#aBild").fadeOut(0);
-            $("#jBild").fadeOut(0);
-        }
-        if(event.currentTarget.firstChild.text == "Jonathan fucking åmål Gabrielsson"){
-            $("#jBild").fadeIn(2000);
-            $("#aBild").fadeOut(0);
-            $("#vBild").fadeOut(0);
-        }
-        }
+    // function showPic(event){
+    //     console.log(event.currentTarget.firstChild.text)
+    //     if(event.currentTarget.firstChild.text == "Amanda Mathisen"){
+    //         $("#aBild").fadeIn(2000);
+    //         $("#vBild").fadeOut(0);
+    //         $("#jBild").fadeOut(0);
+    //     }  
+    //     if(event.currentTarget.firstChild.text == "Vilma Ottner"){
+    //         $("#vBild").fadeIn(2000);
+    //         $("#aBild").fadeOut(0);
+    //         $("#jBild").fadeOut(0);
+    //     }
+    //     if(event.currentTarget.firstChild.text == "Jonathan fucking åmål Gabrielsson"){
+    //         $("#jBild").fadeIn(2000);
+    //         $("#aBild").fadeOut(0);
+    //         $("#vBild").fadeOut(0);
+    //     }
+    //     }
         
 
         // if(event.currentTarget == $("#vBild")){

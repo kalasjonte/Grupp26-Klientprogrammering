@@ -22,6 +22,16 @@ p{
     font-size: 0.5em;
 }
 
+#presentation p{
+    font-size: 1em;
+}
+
+
+#pic{
+    width: 50%;
+    height: auto;
+}
+
 #menu {
     border: solid rgb(5, 131, 131) 0.01em;
     color: rgb(248, 248, 248);
@@ -290,15 +300,6 @@ a{
     position: absolute;
 }
 
-
-.animate{
-    margin-bottom: 5em;
-}
-
-
-
-
-
 #kontakt{
     width: 80%;
     border: solid rgb(47,88, 99);
@@ -438,6 +439,26 @@ textarea{
     margin-bottom: 2em;
 }
 
+#pic{
+    width: 60%;
+    height: auto;
+}
+
+#presentation p{
+    font-size: 1em;
+}
+
+/* #namnp h1{
+    font-size: 100%;
+}  */
+
+#presentation h2{
+    font-size: 100%;
+}
+
+.animate :hover{
+    color: black;
+}
 
 
 @media screen and (min-width: 768px){
@@ -495,9 +516,11 @@ textarea{
 #text{
     font-size: 1.5em;
 }
-#pil{
-    
-}
+
+/* presentationsida */
+
+
+
 
 #portfolio .arbeten{
     display: inline-table;
