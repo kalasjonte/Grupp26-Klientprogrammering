@@ -465,29 +465,9 @@ textarea{
 
 @media screen and (max-width: 765px) {
 
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
+
 /*Startsida*/
-#bild1{
-    display: none;
-}
-#bild2{
-    display: none;
-}
-#bild3{
-    display: none;
-}
-=======
->>>>>>> Stashed changes
-/* #bild4 {
 
-    }     */
-
-<<<<<<< Updated upstream
-=======
->>>>>>> f021b9abdc9a8109c15707c2dbefcd767681fe57
->>>>>>> Stashed changes
 #kontakt{
     width: 70%;
     margin:0em;
@@ -504,9 +484,6 @@ textarea{
     font-size: 100%;
 }
 
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
 /*Personligt sida*/
 
 #vilmabild{
@@ -540,9 +517,6 @@ textarea{
 }
 
 
-
-=======
->>>>>>> Stashed changes
 /* Startsida */
 #text{
     font-size: 1.5em;
@@ -568,11 +542,6 @@ textarea{
     margin: auto;
 }
 
-
-<<<<<<< Updated upstream
-=======
->>>>>>> f021b9abdc9a8109c15707c2dbefcd767681fe57
->>>>>>> Stashed changes
 }
 
 
@@ -731,4 +700,4 @@ a {
     background-color: cornflowerblue;
     margin-right: 20em;
     margin-top: 2em;
-*/
+*/ 
