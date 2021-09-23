@@ -84,6 +84,17 @@ a{
     color: rgb(40, 75, 85);
 }
 
+#myLinks{
+    font-size: 2em;
+}
+#myLinks :hover{
+    color: black;
+}
+#datameny{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
 #text{
     font-size: 2em;
 }
@@ -385,6 +396,8 @@ textarea{
     border-style: solid;
     border-color:rgb(47,88, 99);
     text-align: center;
+    padding-bottom: 1em;
+    padding-top: 1em;
 }
 
 /* Jontes sida */
