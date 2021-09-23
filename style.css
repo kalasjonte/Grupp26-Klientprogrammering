@@ -12,6 +12,7 @@
     background-image: linear-gradient(rgb(67, 167, 167), rgb(140, 212, 212), rgba(56, 156, 160, 0.644));
 }
 
+
 body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(40, 75, 85);
@@ -126,11 +127,12 @@ a{
 
 #vstapel3{
     border: 0.04em ridge rgba(248, 248, 248, 0.185);
-    margin-right: 58em;
+    margin-right: 63em;
     margin-top: 2em;
     border-radius: 1.5em;
     padding-left: 2em;
     font-size: 0.83rem;
+    height: 4em;
     text-shadow: 0.03em 0.03em rgb(153, 153, 153);
 
 }
@@ -142,16 +144,18 @@ a{
     border-radius: 1.5em;
     padding-left: 2em;
     font-size: 0.83rem;
+    height: 4em;
     text-shadow: 0.03em 0.03em rgb(153, 153, 153);
 }
 
 #vstapel5{
     border: 0.04em ridge rgba(248, 248, 248, 0.185);
-    margin-right: 20em;
+    margin-right: 2.5em;
     margin-top: 2em;
     border-radius: 1.5em;
     padding-left: 2em;
     font-size: 0.83rem;
+    height: 4em;
     text-shadow: 0.03em 0.03em rgb(153, 153, 153);
 }
 
@@ -346,7 +350,7 @@ textarea{
     border-color:rgb(47,88, 99);
     text-align: center;
 }
-/*
+
 
 @media screen and (min-width: 768px){
     #menu{
@@ -358,13 +362,13 @@ textarea{
     li{
         display: inline;
         padding-right: 1,5em;
+    }
     
     #myLinks{
         text-align: center;
     }
     
 }
-*/
 
 @media screen and (max-width: 765px) {
 #bild1{
@@ -392,8 +396,6 @@ textarea{
     font-size: 100%;
 }
 
-
-    
 }
 
 
