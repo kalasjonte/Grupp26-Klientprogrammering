@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+
+    <head>
+        <body>
+
+            <div class="diagram">
+
+                <ul id="nummer">
+                    <li><span>100</span></li>
+                    <li><span>0</span></li>
+                </ul>
+        
+                <ul id="staplar">
+                        <li data-percentage="100">sak 1</li>
+                        <li data-percentage="80">sak 2</li>
+                        <li data-percentage="60">sak 3</li>
+                        <li data-percentage="40">sak 4</li>
+                        <li data-percentage="20">sak 5</li>
+                        <li data-percentage="10">sak 6</li>
+                </ul>
+        
+            </div>
+
+
+
+        </body>
+
+
+    </head>

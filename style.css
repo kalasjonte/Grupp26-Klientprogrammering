@@ -1,11 +1,17 @@
 .grad {
-    background-image: linear-gradient( rgb(160, 216, 233), rgb(79, 176, 189));
+    background-image: linear-gradient( rgb(139, 235, 241), rgb(79, 176, 189));
 }
 
 .grad2 {
 
-    background-image: linear-gradient( rgb(227, 237, 252), rgb(172, 210, 235), rgb(5, 131, 131));
+    background-image: linear-gradient( rgb(227, 237, 252), rgb(145, 221, 240), rgb(24, 167, 167));
+   
 }
+
+.grad3 {
+    background-image: linear-gradient(rgb(67, 167, 167), rgb(140, 212, 212), rgba(56, 156, 160, 0.644));
+}
+
 
 body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -17,12 +23,12 @@ p{
 }
 
 #menu {
-    /* border: solid rgb(5, 131, 131) 0.01em; */
+    border: solid rgb(5, 131, 131) 0.01em;
     color: rgb(248, 248, 248);
     text-align: center;
     font-size: 50px;
     margin: 0;
-    text-shadow: 0.03em 0.03em rgb(85, 84, 84);
+    text-shadow: 0.03em 0.03em rgb(139, 139, 139);
 
 }
 
@@ -31,12 +37,6 @@ p{
     margin-top: 10px;
     
 }
-#pil{
-    width: 1em;
-    height: auto;
-}
-
-
 
 .bildspel {
     width: 15em;
@@ -54,13 +54,13 @@ p{
     display: none;
 }
 
-ul {
+.menylista {
     list-style-type: none;
     text-align: center;
     font-size: 30px;
     margin: 1em;
     color: rgb(47, 88, 99);
-    
+    border-bottom: dotted rgb(5, 131, 131);
 }
 
 
@@ -73,48 +73,11 @@ a{
 #text{
     font-size: 2em;
 }
-li{
-    margin-bottom: 0.7em;
-}
 
 #welcome{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
-#infoText {
-    border: purple dashed;
-    margin: 1em;
-}
-
-#portfolio p {
-    font-size: 1em;
-    
-}
-
-#portfolio i {
-   margin-top: 1em;
-   margin-left: 1em;
-   margin-right: 1em;
-   color: green;
-}
-
-#portfolio .contentIMG {
-    width: 10em;
-    height: 10em;
-}
-
-#portfolio .arbeten {
-    display: inline-flex;
-    border-style: solid;
-}
-
-
-
-
-
-
-
 
 
 /*vilmas sida*/
@@ -134,42 +97,84 @@ li{
 }
 
 #vdiagram{
-    border-left: 0.5em solid grey;
     margin-left: 2em;
+    padding-left: 0.2em;   
+    margin-right: 2em;
 }
 
 #vstapel1{
-    border: 0.01em rgba(94, 40, 94, 0.541) solid;
-    background-color: rgba(182, 68, 182, 0.63);
-    margin-right: 10em;
+    border: 0.04em ridge rgba(248, 248, 248, 0.185);
+    margin-right: 17em;
+    border-radius: 1.5em;
+    padding-left: 2em;
+    font-size: 0.83rem;
+    height: 4em;
+    text-shadow: 0.03em 0.03em rgb(153, 153, 153);
 }
 
+
 #vstapel2{
-    border: 0.3em cornflowerblue solid;
-    background-color: cornflowerblue;
+    border: 0.04em ridge rgba(248, 248, 248, 0.185);
     margin-right: 30em;
     margin-top: 2em;
+    border-radius: 1.5em;
+    padding-left: 2em;
+    font-size: 0.83rem;
+    height: 4em;
+    text-shadow: 0.03em 0.03em rgb(153, 153, 153);
+
 }
 
 #vstapel3{
-    border: 0.3em cornflowerblue solid;
-    background-color: cornflowerblue;
-    margin-right: 58em;
+    border: 0.04em ridge rgba(248, 248, 248, 0.185);
+    margin-right: 63em;
     margin-top: 2em;
+    border-radius: 1.5em;
+    padding-left: 2em;
+    font-size: 0.83rem;
+    height: 4em;
+    text-shadow: 0.03em 0.03em rgb(153, 153, 153);
+
 }
 
 #vstapel4{
-    border: 0.3em cornflowerblue solid;
-    background-color: cornflowerblue;
+    border: 0.04em ridge rgba(248, 248, 248, 0.185);
     margin-right: 18em;
     margin-top: 2em;
+    border-radius: 1.5em;
+    padding-left: 2em;
+    font-size: 0.83rem;
+    height: 4em;
+    text-shadow: 0.03em 0.03em rgb(153, 153, 153);
 }
 
 #vstapel5{
-    border: 0.3em cornflowerblue solid;
-    background-color: cornflowerblue;
-    margin-right: 20em;
+    border: 0.04em ridge rgba(248, 248, 248, 0.185);
+    margin-right: 2.5em;
     margin-top: 2em;
+    border-radius: 1.5em;
+    padding-left: 2em;
+    font-size: 0.83rem;
+    height: 4em;
+    text-shadow: 0.03em 0.03em rgb(153, 153, 153);
+}
+
+.div1{
+    float:left;
+}
+
+.yttretabell{
+    border:none;
+    background-image: linear-gradient(rgb(73, 162, 173), rgb(10, 138, 138), rgb(75, 162, 173));
+    border-radius: 1.5em;
+
+}
+
+.procenten{
+    color: white;
+    float: right;
+    padding: 0.1em;
+    margin-right: 1em;
 }
 
 #vnamn{
@@ -188,9 +193,11 @@ li{
 }
 
 #tabellrubrik{
-    color: grey;
-    font-size: 2em;
-    margin-left: 0.5em;
+    color: rgb(252, 249, 249);
+    text-shadow: 0.03em 0.03em rgb(138, 137, 137);
+    font-size: 2.5em;
+    padding-top: 1em;
+    border-bottom: rgb(5, 131, 131) double 0.12em;
 }
 
 .tabelltext{
@@ -229,6 +236,7 @@ li{
     display: none;
     width: 4em;
     height: 4em;
+    float: right;
     position: relative; 
     left: 4em;
     bottom: 10em; ;
@@ -248,9 +256,6 @@ li{
     position: absolute;
 }
 
-#namnp{
-    position: relative;
-}
 
 .animate{
     margin-bottom: 5em;
@@ -297,6 +302,14 @@ textarea{
     color: rgb(47, 88, 99);
     padding: 0.6em 2em;
 }
+#vBild{
+    display: none;
+    width: 4em;
+    height: 4em;
+    float: right;
+    position: relative; 
+    right: 35em;
+}
 
 #astapel1{
     border: 0.3em cornflowerblue solid;
@@ -328,7 +341,10 @@ textarea{
     margin-right: 10em;
     margin-bottom: 2em;
 }
+#amanda{
+    float: left;
 
+}
 #dataMeny{
     border-style: solid;
     border-color:rgb(47,88, 99);
@@ -404,11 +420,13 @@ textarea{
         display: inline;
         padding-right: 1,5em;
     }
+    
     #myLinks{
         text-align: center;
     }
     
 }
+
 @media screen and (max-width: 765px) {
 
 #bild4 {
@@ -431,123 +449,162 @@ textarea{
     font-size: 100%;
 }
 
-#bagage {
-    display: none;
 }
 
-h1 {
-    font-size: 1.1em;
+
+/* Jontes sida */
+
+#jontebild{
+
+    width: 15em;
+    height: 23em;
+    margin: 2em;
+    float: left;
 }
 
-h2 {
-    font-size: 0.9em;
-}
+#jtext{
 
-h3 {
-    font-size: 0.7em;
-}
+    font-size: 2em;
+    margin-bottom: 11em;
 
-#index p {
-    font-size: 0.4em;
-}
-
-.bildspel {
-    width: 70%;
-    height: 70%;
-}
-
-#jontebild {
-    float: none;
-}
-
-#jtext {
-    font-size: 1em;
-    margin-bottom: 0em;
-}
-
-#pic{
-    width: 80%;
 }
 
 #jstapel1{
-    margin-right: 9em;
+    border: 0.3em cornflowerblue solid;
+    background-color: cornflowerblue;
+    margin-right: 40em;
+    margin-bottom: 2em;
 }
 
 #jstapel2{
-    margin-right: 8em;
-    
+    border: 0.3em cornflowerblue solid;
+    background-color: cornflowerblue;
+    margin-right: 10em;
+    margin-bottom: 2em;
 }
 
 #jstapel3{
-    margin-right: 0.5em;
-    
+    border: 0.3em cornflowerblue solid;
+    background-color: cornflowerblue;
+    margin-right: 25em;
+    margin-bottom: 2em;
 }
 
 #jstapel4{
-    margin-right: 6em;
-    
+    border: 0.3em cornflowerblue solid;
+    background-color: cornflowerblue;
+    margin-right: 35em;
+    margin-bottom: 2em;
 }
 
 #jstapel5{
+    border: 0.3em cornflowerblue solid;
+    background-color: cornflowerblue;
     margin-right: 70em;
-    
+    margin-bottom: 2em;
 }
-
-#astapel1{
-    margin-right: 4em;
-}
-
-#astapel2{
-    margin-right: 1em;
-}
-
-#astapel3{
-    margin-right: 0.1em;
-}
-
-#astapel4{
-    margin-right: 10em;
-}
-
-#astapel5{
-    margin-right: 0.5em;
-}
-
-#portfolio .arbeten{
-    display:inline-table;
-    width: 10em;
-    margin: 0.4em;
-}
-
-#portfolio p {
-    color: crimson;
-    font-size: 0.7em;
-}
-
-#portfolio i {
-    color:forestgreen;
-    margin: auto;
-}
-
-
-
-
-
-
-}
-
-
 
 a {
     color: rgb(47, 88, 99);
     text-decoration: underline;
     margin-right: 1em;
 }
-#nextImage{
-    background-image: linear-gradient( rgb(160, 216, 233), rgb(79, 176, 189));
-    border: white;
-}
-.presentation{
-    font-size: 2em;
+
+.diagram{
+    width: 600px;
+    height: 300px;
+    display: block;
 }
 
+
+/*
+#testdiagram{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: coral;
+
+}
+
+.nummer{
+    color: black;
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    height: 100%;
+    display: inline-block;
+}
+
+#nummer li{
+    list-style: none;
+    height: 150px;
+    position: relative;
+    bottom: 145px;
+}
+
+#staplar{
+    color: darkblue;
+    font-size: 12px;
+    font-weight: 600;
+    background: darkorchid;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+#staplar li{
+    display: table-cell;
+    width: 100px;
+    height: 300px;
+    position: relative;
+}
+
+#staplar span{
+    width: 100%;
+    position: absolute;
+    bottom: -310px;
+    text-align: center;
+    display: block;
+}
+.sta li{
+    background: darkblue;
+    width: 30px;
+    height: 100px;
+    position: absolute;
+    bottom: 0%;
+}
+
+
+#vstapel2{
+    border: 0.3em cornflowerblue solid;
+    background-color: cornflowerblue;
+    margin-right: 30em;
+    margin-top: 2em;
+}
+
+#vstapel3{
+    border: 0.3em cornflowerblue solid;
+    background-color: cornflowerblue;
+    margin-right: 58em;
+    margin-top: 2em;
+}
+
+#vstapel4{
+    border: 0.3em cornflowerblue solid;
+    background-color: cornflowerblue;
+    margin-right: 18em;
+    margin-top: 2em;
+}
+
+#vstapel5{
+    border: 0.3em cornflowerblue solid;
+    background-color: cornflowerblue;
+    margin-right: 20em;
+    margin-top: 2em;
+*/
