@@ -444,9 +444,9 @@ textarea{
 
 @media screen and (max-width: 765px) {
 
-#bild4 {
+/* #bild4 {
 
-    }    
+    }     */
 
 #kontakt{
     width: 70%;
@@ -462,6 +462,14 @@ textarea{
 }
 #meddrubrik{
     font-size: 100%;
+}
+
+/* Startsida */
+#text{
+    font-size: 1.5em;
+}
+#pil{
+    
 }
 
 }
