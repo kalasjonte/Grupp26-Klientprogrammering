@@ -3,15 +3,12 @@
 }
 
 .grad2 {
-
     background-image: linear-gradient( rgb(227, 237, 252), rgb(145, 221, 240), rgb(24, 167, 167));
-   
 }
 
 .grad3 {
     background-image: linear-gradient(rgb(67, 167, 167), rgb(140, 212, 212), rgba(56, 156, 160, 0.644));
 }
-
 
 body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -66,7 +63,6 @@ p{
     color: rgb(47, 88, 99);
     border-bottom: dotted rgb(5, 131, 131);
 }
-
 
 a{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -135,7 +131,7 @@ a{
 
 #vstapel1{
     border: 0.04em ridge rgba(248, 248, 248, 0.185);
-    margin-right: 17em;
+    margin-right: 17%;
     border-radius: 1.5em;
     padding-left: 2em;
     font-size: 0.83rem;
@@ -146,7 +142,7 @@ a{
 
 #vstapel2{
     border: 0.04em ridge rgba(248, 248, 248, 0.185);
-    margin-right: 30em;
+    margin-right: 35%;
     margin-top: 2em;
     border-radius: 1.5em;
     padding-left: 2em;
@@ -158,7 +154,7 @@ a{
 
 #vstapel3{
     border: 0.04em ridge rgba(248, 248, 248, 0.185);
-    margin-right: 63em;
+    margin-right: 0%;
     margin-top: 2em;
     border-radius: 1.5em;
     padding-left: 2em;
@@ -170,7 +166,7 @@ a{
 
 #vstapel4{
     border: 0.04em ridge rgba(248, 248, 248, 0.185);
-    margin-right: 18em;
+    margin-right: 30%;
     margin-top: 2em;
     border-radius: 1.5em;
     padding-left: 2em;
@@ -181,7 +177,7 @@ a{
 
 #vstapel5{
     border: 0.04em ridge rgba(248, 248, 248, 0.185);
-    margin-right: 2.5em;
+    margin-right: 2%;
     margin-top: 2em;
     border-radius: 1.5em;
     padding-left: 2em;
@@ -234,8 +230,6 @@ a{
 .tabelltext{
     color: white;
 }
-
-
 
 #presentation{
     color: black;
@@ -471,7 +465,29 @@ textarea{
 
 @media screen and (max-width: 765px) {
 
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+/*Startsida*/
+#bild1{
+    display: none;
+}
+#bild2{
+    display: none;
+}
+#bild3{
+    display: none;
+}
+=======
+>>>>>>> Stashed changes
+/* #bild4 {
 
+    }     */
+
+<<<<<<< Updated upstream
+=======
+>>>>>>> f021b9abdc9a8109c15707c2dbefcd767681fe57
+>>>>>>> Stashed changes
 #kontakt{
     width: 70%;
     margin:0em;
@@ -486,6 +502,53 @@ textarea{
 }
 #meddrubrik{
     font-size: 100%;
+}
+
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+/*Personligt sida*/
+
+#vilmabild{
+    float: center;
+    margin-bottom: 2em;
+}
+
+#vstapel1{
+    margin-right: 15%;
+}
+
+#vstapel2{
+    margin-right: 45%;
+}
+
+#vstapel3{
+    margin-right: 0%;
+}
+
+#vstapel4{
+    margin-right: 35%;
+}
+
+#vstapel5{
+    margin-right: 2%;
+}
+
+#tabellrubrik{
+   font-size: 1em;
+
+}
+
+
+
+=======
+>>>>>>> Stashed changes
+/* Startsida */
+#text{
+    font-size: 1.5em;
+}
+#pil{
+    
 }
 
 #portfolio .arbeten{
@@ -506,6 +569,10 @@ textarea{
 }
 
 
+<<<<<<< Updated upstream
+=======
+>>>>>>> f021b9abdc9a8109c15707c2dbefcd767681fe57
+>>>>>>> Stashed changes
 }
 
 
