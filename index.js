@@ -12,7 +12,7 @@ $( document ).ready(function() {
     $('#nextImage').on('click', start)
     var index = 0;
     
-    function bildspel(e){
+    function bildspel(){
         if (index > pics.length) {
             index = 0;
         }
