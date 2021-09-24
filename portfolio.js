@@ -15,7 +15,7 @@ $( document ).ready(function() {
     //Här loopar vi alla element i arbete taggen, gör variabel för VARJE element som ska in i html documentet
     function laddaData () {
         for (let index = 0; index < arbete.length; index++) {
-            var div, img, title , customer, start, done, description, hr;
+            var div, img, title , customer, start, done, description;
             div = document.createElement('div')
             div.className = 'arbeten'
 
