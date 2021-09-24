@@ -405,16 +405,23 @@ textarea{
     height: 4em;
     text-shadow: 0.03em 0.03em rgb(153, 153, 153);
 }
+/* #amanda{
+    width: 30%;
+    height: auto;
+} */
+
 #amanda{
     float: left;
+    width: 20%;
+    height: auto;
 
 }
 #dataMeny{
     border-style: solid;
     border-color:rgb(47,88, 99);
     text-align: center;
-    padding-bottom: 1em;
-    padding-top: 1em;
+    /* padding-bottom: 1em;
+    padding-top: 1em; */
 }
 
 /* Jontes sida */

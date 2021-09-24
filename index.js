@@ -7,7 +7,7 @@ $( document ).ready(function() {
         fyllIKontakt();
     }
     
-    var pics = ["jonte.jpg", "amanda.jpg", "mv.jpg", "images/raket.webp"]
+    var pics = ["jonte.jpg", "images/amanda.jpg", "mv.jpg", "images/raket.webp"]
 
     $('#nextImage').on('click', start)
     var index = 0;
