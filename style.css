@@ -90,13 +90,9 @@ p{
     border-bottom: dotted rgb(5, 131, 131);
 }
 
-.listlink{
-    margin-right: 1em;
-    margin-left: 1em;
-}
 
 #myLinks{
-    font-size: 2em;
+    font-size: 1.6em;
     list-style-type: none;
     color: rgb(33, 100, 139);
 }
