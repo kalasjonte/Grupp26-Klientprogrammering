@@ -383,6 +383,10 @@ textarea{
     margin-bottom: 2em;
 }
 #amanda{
+    width: 30%;
+    height: auto;
+}
+#amanda{
     float: left;
 
 }
@@ -390,8 +394,8 @@ textarea{
     border-style: solid;
     border-color:rgb(47,88, 99);
     text-align: center;
-    padding-bottom: 1em;
-    padding-top: 1em;
+    /* padding-bottom: 1em;
+    padding-top: 1em; */
 }
 
 /* Jontes sida */
