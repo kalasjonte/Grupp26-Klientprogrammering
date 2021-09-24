@@ -2,19 +2,15 @@
     background-image: linear-gradient( rgb(156, 224, 241), rgb(33, 100, 139));
 }
 
-.grad1 {
-    background-image: linear-gradient( rgb(156, 224, 241), rgb(33, 100, 139));
-}
-
 .grad2 {
-    background-image: linear-gradient( rgb(203, 221, 248), rgb(99, 184, 233), rgb(52, 164, 228));
+    background-image: linear-gradient( rgb(203, 221, 248), rgb(99, 184, 233), rgb(39, 118, 163));
 }
 
 .grad3 {
-    background-image: linear-gradient(rgb(67, 167, 167), rgb(140, 212, 212), rgba(56, 156, 160, 0.644));
+    background-image: linear-gradient(rgb(67, 167, 167), rgb(140, 212, 212), rgb(67, 167, 167));
 }
 .header{
-    background-image: url("/images/himmel.jpg");
+    background-image: url("images/himmel.jpg");
     /* background-color: black; */
     width: 100%;
     height: 14em;
@@ -49,6 +45,7 @@ a {
     color: rgb(33, 100, 139);
     margin-right: 1em;
     text-decoration: none;
+
 }
 
 
@@ -107,7 +104,7 @@ a {
 }
 
 #myLinks :hover{
-    color: black;
+    color: ;
 }
 
 #textfield {
@@ -570,15 +567,17 @@ textarea{
         height: 4em;
         padding-top: 1.3em;
     }
+    
     a{
     color: white;
+    text-shadow: 0.03em 0.03em rgb(153, 153, 153);
     }
 
     #dataMeny{
         background-image: linear-gradient( rgb(156, 224, 241), rgb(33, 100, 139));
     }
 
-    
+
 }
 
 
