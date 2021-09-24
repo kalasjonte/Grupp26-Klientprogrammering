@@ -49,9 +49,9 @@ a {
 }
 
 
-#pic{
+#gruppBild{
     width: 50%;
-    height: auto;
+    height: 50%;
 }
 
 #menu {
@@ -78,8 +78,8 @@ a {
 } 
 
 #bild4 {
-    width: 15em;
-    height: 15em;
+    width: 100%;
+    height: 100%;
     
 }
 
@@ -444,20 +444,6 @@ textarea{
 
 /* Jontes sida */
 
-#jontebild{
-
-    width: 15em;
-    height: 23em;
-    margin: 2em;
-    
-}
-
-#jtext{
-
-    font-size: 2em;
-    margin-bottom: 11em;
-
-}
 
 #jstapel1{
     border: 0.04em ridge rgba(248, 248, 248, 0.185);
@@ -535,6 +521,19 @@ textarea{
     color: black;
 }
 
+#jontebild{
+    float: left;
+    width: 15em;
+    height: 23em;
+    margin: 2em;
+}
+
+#jtext{
+
+    font-size: 2em;
+    margin-bottom: 11em;
+
+}
 
 
 @media screen and (min-width: 768px){
@@ -675,25 +674,20 @@ textarea{
     margin: auto;
 }
 
+#jontebild {
+    float: none;
+}
+
+#jtext {
+    margin-bottom: 1em;
+}
+
 }
 
 
 /* Jontes sida */
 
-#jontebild{
 
-    width: 15em;
-    height: 23em;
-    margin: 2em;
-    float: left;
-}
-
-#jtext{
-
-    font-size: 2em;
-    margin-bottom: 11em;
-
-}
 
 
 .diagram{
