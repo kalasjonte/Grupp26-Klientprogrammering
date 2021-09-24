@@ -313,7 +313,10 @@ a {
     left: 4em;
     bottom: 10em; 
     margin: 0em;
+}
 
+#atext{
+    font-size: 1em;
 }
 #vBild{
     display: none;
@@ -612,8 +615,12 @@ textarea{
 /*Personligt sida*/
 
 #vilmabild{
-    float: center;
+    float: none;
     margin-bottom: 2em;
+}
+.vpre{
+    margin-bottom: 2em;
+    margin-top: 2em;
 }
 
 #vstapel1{
@@ -644,6 +651,12 @@ textarea{
 .grad1{
     background-image: 0;
 }
+
+#amanda{
+    float:none;
+    text-align: center;
+}
+
 
 
 /* Startsida */
