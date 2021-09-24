@@ -2,16 +2,12 @@
     background-image: linear-gradient( rgb(156, 224, 241), rgb(33, 100, 139));
 }
 
-.grad1 {
-    background-image: linear-gradient( rgb(156, 224, 241), rgb(33, 100, 139));
-}
-
 .grad2 {
-    background-image: linear-gradient( rgb(203, 221, 248), rgb(99, 184, 233), rgb(52, 164, 228));
+    background-image: linear-gradient( rgb(203, 221, 248), rgb(99, 184, 233), rgb(39, 118, 163));
 }
 
 .grad3 {
-    background-image: linear-gradient(rgb(67, 167, 167), rgb(140, 212, 212), rgba(56, 156, 160, 0.644));
+    background-image: linear-gradient(rgb(67, 167, 167), rgb(140, 212, 212), rgb(67, 167, 167));
 }
 .header{
     background-image: url("images/himmel.jpg");
@@ -49,12 +45,13 @@ a {
     color: rgb(33, 100, 139);
     margin-right: 1em;
     text-decoration: none;
+
 }
 
 
-#pic{
+#gruppBild{
     width: 50%;
-    height: auto;
+    height: 50%;
 }
 
 #menu {
@@ -81,8 +78,8 @@ a {
 } 
 
 #bild4 {
-    width: 15em;
-    height: 15em;
+    width: 100%;
+    height: 100%;
     
 }
 
@@ -107,7 +104,7 @@ a {
 }
 
 #myLinks :hover{
-    color: black;
+    color: rgb(33, 100, 139);
 }
 
 #textfield {
@@ -411,7 +408,7 @@ textarea{
 }
 #astapel4{
     border: 0.04em ridge rgba(248, 248, 248, 0.185);
-    margin-right: 68%;
+    margin-right: 39%;
     margin-top: 2em;
     border-radius: 1.5em;
     padding-left: 2em;
@@ -438,8 +435,9 @@ textarea{
     float: left;
     width: 20%;
     height: auto;
-
 }
+
+
 #dataMeny{
     border-bottom: solid rgb(33, 100, 139);
     text-align: center;
@@ -449,24 +447,10 @@ textarea{
 
 /* Jontes sida */
 
-#jontebild{
-
-    width: 15em;
-    height: 23em;
-    margin: 2em;
-    
-}
-
-#jtext{
-
-    font-size: 2em;
-    margin-bottom: 11em;
-
-}
 
 #jstapel1{
     border: 0.04em ridge rgba(248, 248, 248, 0.185);
-    margin-right: 50%;
+    margin-right: 31%;
     margin-top: 2em;
     border-radius: 1.5em;
     padding-left: 2em;
@@ -540,6 +524,19 @@ textarea{
     color: black;
 }
 
+#jontebild{
+    float: left;
+    width: 15em;
+    height: 23em;
+    margin: 2em;
+}
+
+#jtext{
+
+    font-size: 2em;
+    margin-bottom: 11em;
+
+}
 
 
 @media screen and (min-width: 768px){
@@ -573,15 +570,17 @@ textarea{
         height: 4em;
         padding-top: 1.3em;
     }
+
     a{
     color: white;
+    text-shadow: 0.03em 0.03em rgb(153, 153, 153);
     }
 
     #dataMeny{
         background-image: linear-gradient( rgb(156, 224, 241), rgb(33, 100, 139));
     }
 
-    
+
 }
 
 
@@ -688,25 +687,20 @@ textarea{
     margin: auto;
 }
 
+#jontebild {
+    float: none;
+}
+
+#jtext {
+    margin-bottom: 1em;
+}
+
 }
 
 
 /* Jontes sida */
 
-#jontebild{
 
-    width: 15em;
-    height: 23em;
-    margin: 2em;
-    float: left;
-}
-
-#jtext{
-
-    font-size: 2em;
-    margin-bottom: 11em;
-
-}
 
 
 .diagram{
