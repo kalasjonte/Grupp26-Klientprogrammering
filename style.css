@@ -84,6 +84,7 @@ a{
 
 #myLinks{
     font-size: 2em;
+    list-style-type: none;
 }
 #myLinks :hover{
     color: black;
