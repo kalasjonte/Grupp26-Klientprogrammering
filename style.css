@@ -104,7 +104,7 @@ a {
 }
 
 #myLinks :hover{
-    color: ;
+    color: rgb(33, 100, 139);
 }
 
 #textfield {
@@ -405,7 +405,7 @@ textarea{
 }
 #astapel4{
     border: 0.04em ridge rgba(248, 248, 248, 0.185);
-    margin-right: 68%;
+    margin-right: 39%;
     margin-top: 2em;
     border-radius: 1.5em;
     padding-left: 2em;
@@ -432,8 +432,9 @@ textarea{
     float: left;
     width: 20%;
     height: auto;
-
 }
+
+
 #dataMeny{
     border-bottom: solid rgb(33, 100, 139);
     text-align: center;
@@ -460,7 +461,7 @@ textarea{
 
 #jstapel1{
     border: 0.04em ridge rgba(248, 248, 248, 0.185);
-    margin-right: 50%;
+    margin-right: 31%;
     margin-top: 2em;
     border-radius: 1.5em;
     padding-left: 2em;
@@ -567,7 +568,7 @@ textarea{
         height: 4em;
         padding-top: 1.3em;
     }
-    
+
     a{
     color: white;
     text-shadow: 0.03em 0.03em rgb(153, 153, 153);
