@@ -84,6 +84,7 @@ a{
 
 #myLinks{
     font-size: 2em;
+    list-style-type: none;
 }
 #myLinks :hover{
     color: black;
@@ -146,7 +147,7 @@ a{
     margin-left: 2em;
 }
 
-.vdiagram{
+#vdiagram{
     margin-left: 2em;
     padding-left: 0.2em;   
     margin-right: 2em;
@@ -165,7 +166,7 @@ a{
 
 #vstapel2{
     border: 0.04em ridge rgba(248, 248, 248, 0.185);
-    margin-right: 35%;
+    margin-right: 39%;
     margin-top: 2em;
     border-radius: 1.5em;
     padding-left: 2em;
@@ -209,15 +210,17 @@ a{
     text-shadow: 0.03em 0.03em rgb(153, 153, 153);
 }
 
-.div1{
-    float:left;
-}
 
 .yttretabell{
     border:none;
     background-image: linear-gradient(rgb(73, 162, 173), rgb(10, 138, 138), rgb(75, 162, 173));
     border-radius: 1.5em;
+    margin: 2em;
 
+}
+
+.div1{
+    float: left;
 }
 
 .procenten{
