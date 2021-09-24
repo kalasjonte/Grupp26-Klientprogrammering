@@ -10,6 +10,7 @@
     background-image: linear-gradient(rgb(67, 167, 167), rgb(140, 212, 212), rgba(56, 156, 160, 0.644));
 }
 
+
 body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(40, 75, 85);
@@ -49,8 +50,9 @@ p{
 
 #bilder
 {
-    margin-right: 50%;
-    margin-left: 50%;
+    
+    margin-left: 30%;
+    margin-right: 30%;
     
     
 } 
@@ -129,7 +131,7 @@ a{
 }
 
 /*vilmas sida*/
-#vpre{
+.vpre{
     margin-bottom: 25em;
     margin-top: 2em;
 }
@@ -353,34 +355,53 @@ textarea{
 }
 
 #astapel1{
-    border: 0.3em cornflowerblue solid;
-    background-color: cornflowerblue;
-    margin-right: 20em;
-    margin-bottom: 2em;
+    border: 0.04em ridge rgba(248, 248, 248, 0.185);
+    margin-right: 20%;
+    border-radius: 1.5em;
+    padding-left: 2em;
+    font-size: 0.83rem;
+    height: 4em;
+    text-shadow: 0.03em 0.03em rgb(153, 153, 153);
 }
 #astapel2{
-    border: 0.3em cornflowerblue solid;
-    background-color: cornflowerblue;
-    margin-right: 10em;
-    margin-bottom: 2em;
+    border: 0.04em ridge rgba(248, 248, 248, 0.185);
+    margin-right: 10%;
+    margin-top: 2em;
+    border-radius: 1.5em;
+    padding-left: 2em;
+    font-size: 0.83rem;
+    height: 4em;
+    text-shadow: 0.03em 0.03em rgb(153, 153, 153);
 }
 #astapel3{
-    border: 0.3em cornflowerblue solid;
-    background-color: cornflowerblue;
-    margin-right: 10em;
-    margin-bottom: 2em;
+    border: 0.04em ridge rgba(248, 248, 248, 0.185);
+    margin-right: 8%;
+    margin-top: 2em;
+    border-radius: 1.5em;
+    padding-left: 2em;
+    font-size: 0.83rem;
+    height: 4em;
+    text-shadow: 0.03em 0.03em rgb(153, 153, 153);
 }
 #astapel4{
-    border: 0.3em cornflowerblue solid;
-    background-color: cornflowerblue;
-    margin-right: 60em;
-    margin-bottom: 2em;
+    border: 0.04em ridge rgba(248, 248, 248, 0.185);
+    margin-right: 68%;
+    margin-top: 2em;
+    border-radius: 1.5em;
+    padding-left: 2em;
+    font-size: 0.83rem;
+    height: 4em;
+    text-shadow: 0.03em 0.03em rgb(153, 153, 153);
 }
 #astapel5{
-    border: 0.3em cornflowerblue solid;
-    background-color: cornflowerblue;
-    margin-right: 10em;
-    margin-bottom: 2em;
+    border: 0.04em ridge rgba(248, 248, 248, 0.185);
+    margin-right: 14%;
+    margin-top: 2em;
+    border-radius: 1.5em;
+    padding-left: 2em;
+    font-size: 0.83rem;
+    height: 4em;
+    text-shadow: 0.03em 0.03em rgb(153, 153, 153);
 }
 #amanda{
     width: 30%;
@@ -416,38 +437,53 @@ textarea{
 }
 
 #jstapel1{
-    border: 0.3em cornflowerblue solid;
-    background-color: cornflowerblue;
-    margin-right: 40em;
-    margin-bottom: 2em;
+    border: 0.04em ridge rgba(248, 248, 248, 0.185);
+    margin-right: 50%;
+    border-radius: 1.5em;
+    padding-left: 2em;
+    font-size: 0.83rem;
+    height: 4em;
+    text-shadow: 0.03em 0.03em rgb(153, 153, 153);
 }
 
 #jstapel2{
-    border: 0.3em cornflowerblue solid;
-    background-color: cornflowerblue;
-    margin-right: 10em;
-    margin-bottom: 2em;
+    border: 0.04em ridge rgba(248, 248, 248, 0.185);
+    margin-right: 50%;
+    border-radius: 1.5em;
+    padding-left: 2em;
+    font-size: 0.83rem;
+    height: 4em;
+    text-shadow: 0.03em 0.03em rgb(153, 153, 153);
 }
 
 #jstapel3{
-    border: 0.3em cornflowerblue solid;
-    background-color: cornflowerblue;
-    margin-right: 25em;
-    margin-bottom: 2em;
+    border: 0.04em ridge rgba(248, 248, 248, 0.185);
+    margin-right: 50%;
+    border-radius: 1.5em;
+    padding-left: 2em;
+    font-size: 0.83rem;
+    height: 4em;
+    text-shadow: 0.03em 0.03em rgb(153, 153, 153);
 }
 
 #jstapel4{
-    border: 0.3em cornflowerblue solid;
-    background-color: cornflowerblue;
-    margin-right: 35em;
-    margin-bottom: 2em;
+    border: 0.04em ridge rgba(248, 248, 248, 0.185);
+    margin-right: 50%;
+    border-radius: 1.5em;
+    padding-left: 2em;
+    font-size: 0.83rem;
+    height: 4em;
+    text-shadow: 0.03em 0.03em rgb(153, 153, 153);
 }
 
 #jstapel5{
-    border: 0.3em cornflowerblue solid;
-    background-color: cornflowerblue;
-    margin-right: 70em;
-    margin-bottom: 2em;
+    border: 0.04em ridge rgba(248, 248, 248, 0.185);
+    margin-right: 50%;
+    border-radius: 1.5em;
+    padding-left: 2em;
+    font-size: 0.83rem;
+    height: 4em;
+    text-shadow: 0.03em 0.03em rgb(153, 153, 153);
 }
 
 #pic{
@@ -600,41 +636,6 @@ textarea{
     font-size: 2em;
     margin-bottom: 11em;
 
-}
-
-#jstapel1{
-    border: 0.3em cornflowerblue solid;
-    background-color: cornflowerblue;
-    margin-right: 40em;
-    margin-bottom: 2em;
-}
-
-#jstapel2{
-    border: 0.3em cornflowerblue solid;
-    background-color: cornflowerblue;
-    margin-right: 10em;
-    margin-bottom: 2em;
-}
-
-#jstapel3{
-    border: 0.3em cornflowerblue solid;
-    background-color: cornflowerblue;
-    margin-right: 25em;
-    margin-bottom: 2em;
-}
-
-#jstapel4{
-    border: 0.3em cornflowerblue solid;
-    background-color: cornflowerblue;
-    margin-right: 35em;
-    margin-bottom: 2em;
-}
-
-#jstapel5{
-    border: 0.3em cornflowerblue solid;
-    background-color: cornflowerblue;
-    margin-right: 70em;
-    margin-bottom: 2em;
 }
 
 a {

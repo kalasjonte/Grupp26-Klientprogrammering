@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <projects>
     <arbete id='a1'>
-        <image>images/1.jpg</image>
+        <image>images/java.png</image>
         <title>Men in Black -- Java projekt</title>
         <customer>KUND: Örebro universitet</customer>
         <start>Start datum: 10/12-2020</start>
@@ -9,7 +9,7 @@
         <description>Men in black var vårat första programmeringsuppdrag. Det skrevs i Java med en databas som var skriven i Mysql. Men in black var en uppförsbacke med priset att våra programmeringskunskaper slipades på intensivt. </description>
     </arbete>
     <arbete id='a2'>
-        <image>/images/1.jpg</image>
+        <image>images/design.jpg</image>
         <title>Interaktionsdesign - Designa en app</title>
         <customer>KUND: Örebro universitet</customer>
         <start>Start datum: 1/5-2021</start>
@@ -17,7 +17,7 @@
         <description>Interaktionskursen begav sig under våren 2021. Vårt uppdrag här var att grafiskt designa en app i låg, såväl hifi prototyper. Här fick vi studera diverse design teorier och lära oss hur en användavänlig applikation bör se ut.</description>
     </arbete>
     <arbete id='a3'>
-        <image>/images/1.jpg</image>
+        <image>images/scrum.webp</image>
         <title>SCRUM och XP projekt</title>
         <customer>KUND : Örebro universitet</customer>
         <start>Start datum: 8/3-2021</start>
@@ -25,7 +25,7 @@
         <description>I scrum projektet fick vi testa på att utveckla ett system i java, med stöd från metoderna inom SCRUM och XP. Slutprodukten blev ett forumliknande imageboard. Ett par svettiga veckor i bunkern med mycket kaffe och skratt!</description>
     </arbete>
     <arbete id='a4'>
-        <image>/images/1.jpg</image>
+        <image>images/raket.webp</image>
         <title>Rabattkod tracker</title>
         <customer>KUND : Elon Musk / SpaceX</customer>
         <start>Start datum: 8/7-2005</start>
