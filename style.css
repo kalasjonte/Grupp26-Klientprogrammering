@@ -146,7 +146,7 @@ a{
     margin-left: 2em;
 }
 
-#vdiagram{
+.vdiagram{
     margin-left: 2em;
     padding-left: 0.2em;   
     margin-right: 2em;
@@ -435,6 +435,7 @@ textarea{
 #jstapel1{
     border: 0.04em ridge rgba(248, 248, 248, 0.185);
     margin-right: 50%;
+    margin-top: 2em;
     border-radius: 1.5em;
     padding-left: 2em;
     font-size: 0.83rem;
@@ -444,7 +445,8 @@ textarea{
 
 #jstapel2{
     border: 0.04em ridge rgba(248, 248, 248, 0.185);
-    margin-right: 50%;
+    margin-right: 22%;
+    margin-top: 2em;
     border-radius: 1.5em;
     padding-left: 2em;
     font-size: 0.83rem;
@@ -454,7 +456,8 @@ textarea{
 
 #jstapel3{
     border: 0.04em ridge rgba(248, 248, 248, 0.185);
-    margin-right: 50%;
+    margin-right: 12%;
+    margin-top: 2em;
     border-radius: 1.5em;
     padding-left: 2em;
     font-size: 0.83rem;
@@ -464,7 +467,8 @@ textarea{
 
 #jstapel4{
     border: 0.04em ridge rgba(248, 248, 248, 0.185);
-    margin-right: 50%;
+    margin-right: 37%;
+    margin-top: 2em;
     border-radius: 1.5em;
     padding-left: 2em;
     font-size: 0.83rem;
@@ -474,7 +478,8 @@ textarea{
 
 #jstapel5{
     border: 0.04em ridge rgba(248, 248, 248, 0.185);
-    margin-right: 50%;
+    margin-right: 84%;
+    margin-top: 2em;
     border-radius: 1.5em;
     padding-left: 2em;
     font-size: 0.83rem;
