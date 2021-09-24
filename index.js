@@ -3,6 +3,7 @@ $( document ).ready(function() {
     var title = document.title;
     console.log(title)
 
+    // Vill endast köra fyllkontakt på första sidan
     if(title == 'Första sidan' ){
         fyllIKontakt();
     }
@@ -10,6 +11,9 @@ $( document ).ready(function() {
     var pics = ["jonte.jpg", "images/amanda.jpg", "mv.jpg", "images/raket.webp"]
 
     $('#nextImage').on('click', start)
+    
+    //Eftersom vi kör med intervall längre ner och fadein/out kan använder vi ej loop
+    //en loop hade inneburit att index hade gått fullt innan första bilden visats klart
     var index = 0;
     
     function bildspel(){
@@ -54,6 +58,7 @@ $( document ).ready(function() {
                 
     }
 
+    // sätter variabel utanför funktionen för större scope, så rad 69 sparas utanför funktionen
     var interval = null;
 
     function start(){
@@ -142,6 +147,8 @@ $( document ).ready(function() {
     // }
 
   
+    //När användaren släpper en tanget, kör valideringar. 
+
     $('.inputs').keyup(function(){
         namnValidation()
         teleValidation()
@@ -150,15 +157,12 @@ $( document ).ready(function() {
 
     })
     
+    //Meddela användaren om meddelandet skickades vid skicka knapp trycket
 
     function validation() {
-        namnValidation()
-        teleValidation()
-        emailValidation()
-        msgValidation()
        if(namnValidation() && teleValidation() && emailValidation() && msgValidation()) {
         storeData()
-        window.alert('Tack för ditt meddellande <3')
+        window.alert('Tack för ditt meddelande <3')
        } 
 
        else {
@@ -167,6 +171,7 @@ $( document ).ready(function() {
         
     }
 
+    //Validera att namnet ej innehåller felaktiga karaktärer, men tillåt mellanslag i mellan bokstäver
     function namnValidation() {
         let namnfield = $('#namn').val();
         var letters = /^(?![\s.]+$)[a-zA-ZäöåÄÖÅ ]+$/
@@ -198,9 +203,10 @@ $( document ).ready(function() {
 
     }
 
+    //Lägger till en regex (numbers) som kontrollerar att inputen endast innehåller siffror
     function teleValidation() {
         let telefield = $('#tele').val();
-        var letters = /^(?![\s.]+$)[a-zA-ZäöåÄÖÅ ]+$/
+        var numbers = /^\d+$/
         var mellanslag = /^[\s.]+$/
 
         if(telefield == '') {
@@ -208,8 +214,9 @@ $( document ).ready(function() {
             return false;
         }
 
-        else if(telefield.match(letters) || telefield.match(mellanslag) ) {
-            $('#teleERR').text('Bara nummer här!').css({ 'color': 'red'})
+        else if (!telefield.match(numbers))
+        {
+            $('#teleERR').text('Du får endast använda siffror här').css({ 'color': 'red'})
             return false;
         }
         
@@ -233,6 +240,7 @@ $( document ).ready(function() {
 
     }
 
+    //mailformat == får inte börja med @, eller punkt. Men måste innehålla någonstans + bokstäver + 2-3 bokstäver efter punkten
     function emailValidation(){
         let emailField = $('#email').val();
         let mailFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
@@ -268,11 +276,14 @@ $( document ).ready(function() {
 
     }
 
+    //Kör valideringen på skicka knapp och refresha inte sidan. Designval
      $("#submit").click(function(event){
          event.preventDefault();
          validation();
      })
 
+        //spara stringsen i inputfielden till browserns locala storage som ett json objekt
+        //första variabeln i setItem = nyckel, andra = värde
         function storeData(){
          window.localStorage.setItem('name',$('#namn').val())
          window.localStorage.setItem('phone',$('#tele').val())
@@ -280,7 +291,7 @@ $( document ).ready(function() {
          window.localStorage.setItem('msg',$('#textfield').val())
         }
      
-
+        //Hämta värdena som är sparade i nycklarna och visa dem i input fieldsen
      function fyllIKontakt(){
        let namn=  window.localStorage.getItem('name')
        let tele = window.localStorage.getItem('phone')
@@ -297,6 +308,8 @@ $( document ).ready(function() {
      }
    
 })
+
+//API för att användaren ska kunna få fullscreen med enter knappen
 document.addEventListener("keydown", function(e){
     if(e.key == "Enter"){
         showFullScreen();
