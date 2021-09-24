@@ -100,6 +100,10 @@ p{
     color: black;
 }
 
+#textfield {
+    width: 90%;
+}
+
 
 #text{
     font-size: 2em;
@@ -524,6 +528,8 @@ textarea{
 }
 
 
+
+
 @media screen and (min-width: 768px){
     #menu{
         display: none;
@@ -546,7 +552,7 @@ textarea{
     }
     #kontakt{
 
-        width: 40%;
+        width: 35%;
         margin-left: 50%;
         margin-top: 10%;
     } 
