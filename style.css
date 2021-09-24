@@ -328,7 +328,7 @@ a{
     width: 80%;
     border: solid rgb(47,88, 99);
     border-radius: 2em;
-    margin: 2em;
+    margin-top: 0em;
     text-align:justify;
     padding: 3em;
     font-size: 1em;
