@@ -114,8 +114,10 @@ a {
 }
 
 #infoText {
-    border: purple dashed;
+    /* border: purple dashed; */
     margin: 1em;
+    font-size: 90%;
+    text-align: center;
 }
 
 
@@ -418,7 +420,7 @@ textarea{
 
 #amanda{
     float: left;
-    width: 25%;
+    width: 23%;
     height: auto;
     margin-right: 2em;
 }
