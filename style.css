@@ -7,7 +7,7 @@
 }
 
 .grad3 {
-    background-image: linear-gradient(rgb(102, 107, 107), rgb(204, 206, 206), rgb(102, 107, 107));
+    background-image: linear-gradient(rgb(66, 140, 170), rgb(128, 174, 190), rgb(66, 140, 170));
 }
 .header{
     background-image: url("images/himmel.jpg");
@@ -153,7 +153,7 @@ a {
 }
 
 #vstapel1{
-    border: 0.04em ridge rgba(248, 248, 248, 0.185);
+    border: 0.08em ridge rgb(75, 142, 187);
     margin-right: 17%;
     border-radius: 1.5em;
     padding-left: 2em;
@@ -164,7 +164,7 @@ a {
 
 
 #vstapel2{
-    border: 0.04em ridge rgba(248, 248, 248, 0.185);
+    border: 0.08em ridge rgb(75, 142, 187);
     margin-right: 39%;
     margin-top: 2em;
     border-radius: 1.5em;
@@ -176,7 +176,7 @@ a {
 }
 
 #vstapel3{
-    border: 0.04em ridge rgba(248, 248, 248, 0.185);
+    border:  0.08em ridge rgb(75, 142, 187);
     margin-right: 0%;
     margin-top: 2em;
     border-radius: 1.5em;
@@ -188,7 +188,7 @@ a {
 }
 
 #vstapel4{
-    border: 0.04em ridge rgba(248, 248, 248, 0.185);
+    border:  0.08em ridge rgb(75, 142, 187);
     margin-right: 30%;
     margin-top: 2em;
     border-radius: 1.5em;
@@ -199,7 +199,7 @@ a {
 }
 
 #vstapel5{
-    border: 0.04em ridge rgba(248, 248, 248, 0.185);
+    border:  0.08em ridge rgb(75, 142, 187);
     margin-right: 2%;
     margin-top: 2em;
     border-radius: 1.5em;
@@ -212,7 +212,7 @@ a {
 
 .yttretabell{
     border:none;
-    background-image: linear-gradient(rgb(73, 162, 173), rgb(10, 138, 138), rgb(75, 162, 173));
+    background-image: linear-gradient(rgb(31, 84, 100), rgb(95, 149, 180), rgb(28, 79, 95));
     border-radius: 1.5em;
     margin: 2em;
 
@@ -249,7 +249,7 @@ a {
     text-shadow: 0.03em 0.03em rgb(138, 137, 137);
     font-size: 2.5em;
     padding-top: 1em;
-    border-bottom: rgb(5, 131, 131) double 0.12em;
+    border-bottom: rgb(33, 100, 139) double 0.12em;
 }
 
 .tabelltext{
@@ -355,7 +355,7 @@ textarea{
 }
 
 #astapel1{
-    border: 0.04em ridge rgba(248, 248, 248, 0.185);
+    border: 0.08em ridge rgb(75, 142, 187);
     margin-right: 20%;
     border-radius: 1.5em;
     padding-left: 2em;
@@ -364,7 +364,7 @@ textarea{
     text-shadow: 0.03em 0.03em rgb(153, 153, 153);
 }
 #astapel2{
-    border: 0.04em ridge rgba(248, 248, 248, 0.185);
+    border: 0.08em ridge rgb(75, 142, 187);
     margin-right: 10%;
     margin-top: 2em;
     border-radius: 1.5em;
@@ -374,7 +374,7 @@ textarea{
     text-shadow: 0.03em 0.03em rgb(153, 153, 153);
 }
 #astapel3{
-    border: 0.04em ridge rgba(248, 248, 248, 0.185);
+    border: 0.08em ridge rgb(75, 142, 187);
     margin-right: 8%;
     margin-top: 2em;
     border-radius: 1.5em;
@@ -384,7 +384,7 @@ textarea{
     text-shadow: 0.03em 0.03em rgb(153, 153, 153);
 }
 #astapel4{
-    border: 0.04em ridge rgba(248, 248, 248, 0.185);
+    border: 0.08em ridge rgb(75, 142, 187);
     margin-right: 39%;
     margin-top: 2em;
     border-radius: 1.5em;
@@ -394,7 +394,7 @@ textarea{
     text-shadow: 0.03em 0.03em rgb(153, 153, 153);
 }
 #astapel5{
-    border: 0.04em ridge rgba(248, 248, 248, 0.185);
+    border: 0.08em ridge rgb(75, 142, 187);
     margin-right: 14%;
     margin-top: 2em;
     border-radius: 1.5em;
@@ -424,7 +424,7 @@ textarea{
 
 
 #jstapel1{
-    border: 0.04em ridge rgba(248, 248, 248, 0.185);
+    border: 0.08em ridge rgb(75, 142, 187);
     margin-right: 31%;
     margin-top: 2em;
     border-radius: 1.5em;
@@ -435,7 +435,7 @@ textarea{
 }
 
 #jstapel2{
-    border: 0.04em ridge rgba(248, 248, 248, 0.185);
+    border: 0.08em ridge rgb(75, 142, 187);
     margin-right: 22%;
     margin-top: 2em;
     border-radius: 1.5em;
@@ -446,7 +446,7 @@ textarea{
 }
 
 #jstapel3{
-    border: 0.04em ridge rgba(248, 248, 248, 0.185);
+    border: 0.08em ridge rgb(75, 142, 187);
     margin-right: 12%;
     margin-top: 2em;
     border-radius: 1.5em;
@@ -457,7 +457,7 @@ textarea{
 }
 
 #jstapel4{
-    border: 0.04em ridge rgba(248, 248, 248, 0.185);
+    border: 0.08em ridge rgb(75, 142, 187);
     margin-right: 37%;
     margin-top: 2em;
     border-radius: 1.5em;
@@ -468,7 +468,7 @@ textarea{
 }
 
 #jstapel5{
-    border: 0.04em ridge rgba(248, 248, 248, 0.185);
+    border: 0.08em ridge rgb(75, 142, 187);
     margin-right: 6%;
     margin-top: 2em;
     border-radius: 1.5em;
