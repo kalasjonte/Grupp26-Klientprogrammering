@@ -23,7 +23,7 @@ $( document ).ready(function() {
             //appendar sedan img till den div vi skapade över denna kommentar
             img = document.createElement('img')
             img.setAttribute('src', getXmlValue(arbete[index], 'image'));
-            img.className='contentIMG'
+            img.className='contentIMG';
             div.appendChild(img);
 
             //title,customer,start,done,description fungerar likadant
