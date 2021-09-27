@@ -3,7 +3,7 @@
 }
 
 .grad2 {
-    background-image: linear-gradient( rgb(203, 221, 248), rgb(99, 184, 233), rgb(39, 118, 163));
+    background-image: linear-gradient( rgb(203, 221, 248), rgb(99, 184, 233), rgb(59, 144, 194));
 }
 
 .grad3 {
@@ -30,11 +30,7 @@ body{
 }
 
 p{
-    font-size: 0.5em;
-}
-
-#presentation p{
-    font-size: 1em;
+    font-size: 0.6em;
 }
 
 .link{
@@ -47,7 +43,6 @@ a {
     text-decoration: none;
 
 }
-
 
 #gruppBild{
     width: 50%;
@@ -67,11 +62,9 @@ a {
 .pilmenu {
     width: 2.5%;
     
-    
 }
 
-#bilder
-{
+#bilder {
     margin-left: 30%;
     margin-right: 30%;
     
@@ -87,9 +80,6 @@ a {
     display: none;
 }
 
-
-
-
 #myLinks{
     font-size: 1.6em;
     list-style-type: none;
@@ -103,7 +93,6 @@ a {
 #textfield {
     width: 90%;
 }
-
 
 #text{
     font-size: 2em;
@@ -497,16 +486,17 @@ textarea{
 }
 
 #presentation p{
-    font-size: 1em;
+    font-size: 1.3em;
+}
+
+.underrubrik{
+    font-size: 5em;
 }
 
 /* #namnp h1{
     font-size: 100%;
 }  */
 
-#presentation h2{
-    font-size: 100%;
-}
 
 #jontebild{
     float: left;
@@ -516,7 +506,6 @@ textarea{
 }
 
 #jtext{
-
     font-size: 2em;
     margin-bottom: 11em;
 
@@ -678,11 +667,19 @@ textarea{
 #jtext {
     margin-bottom: 1em;
 }
-
-
 }
-
 
 .animate :hover{
     color: rgb(254, 255, 255);
+}
+
+.underrubrik{
+    font-size: 2em;
+    margin-top: 1.5em;
+    color: rgb(19, 67, 95);
+    
+}
+
+#rubrikpres{
+    font-size: 3em;
 }
