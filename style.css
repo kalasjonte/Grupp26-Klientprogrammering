@@ -7,7 +7,7 @@
 }
 
 .grad3 {
-    background-image: linear-gradient(rgb(66, 140, 170), rgb(128, 174, 190), rgb(66, 140, 170));
+    background-image: linear-gradient(rgb(51, 124, 153), rgb(148, 196, 212), rgb(49, 130, 161));
 }
 .header{
     background-image: url("images/himmel.jpg");
@@ -133,7 +133,7 @@ a {
 
 /*vilmas sida*/
 .vpre{
-    margin-bottom: 25em;
+    margin-bottom: 20em;
     margin-top: 2em;
 }
 
@@ -213,7 +213,7 @@ a {
 
 .yttretabell{
     border:none;
-    background-image: linear-gradient(rgb(31, 84, 100), rgb(95, 149, 180), rgb(28, 79, 95));
+    background-image: linear-gradient(rgb(39, 105, 126), rgb(85, 142, 175), rgb(39, 105, 126));
     border-radius: 1.5em;
     margin: 2em;
 
@@ -228,6 +228,11 @@ a {
     float: right;
     padding: 0.1em;
     margin-right: 1em;
+}
+
+#textA{
+    font-size: 3em;
+    margin-left: 0.7em;
 }
 
 #vnamn{
@@ -411,6 +416,7 @@ textarea{
     width: 23%;
     height: auto;
     margin-right: 2em;
+    margin-left: 2em;
 }
 
 
@@ -492,17 +498,15 @@ textarea{
     font-size: 5em;
 }
 
-
-
 #jontebild{
     float: left;
     width: 15em;
     height: 23em;
-    margin: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 #jtext{
-
     font-size: 1em;
     margin-bottom: 11em;
 
