@@ -235,13 +235,7 @@ a {
     margin-left: 0.7em;
 }
 
-#vnamn{
-    color: white;
-    font-size: 3.3em;
-    margin-top: 0.5em;
-    margin-bottom: 0,5em;
-    text-align: center;
-}
+
 
 #vmenu{
     border: solid transparent;
@@ -516,7 +510,7 @@ textarea{
     }
     li{
         display: inline;
-        padding-right: 1,5em;
+        
     }
     
     #myLinks{
@@ -622,9 +616,7 @@ textarea{
 
 }
 
-.grad1{
-    background-image: 0;
-}
+
 
 #amanda{
     float: none;
