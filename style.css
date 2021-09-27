@@ -426,15 +426,13 @@ textarea{
     height: 4em;
     text-shadow: 0.03em 0.03em rgb(153, 153, 153);
 }
-/* #amanda{
-    width: 30%;
-    height: auto;
-} */
+
 
 #amanda{
     float: left;
-    width: 20%;
+    width: 25%;
     height: auto;
+    margin-right: 2em;
 }
 
 
@@ -533,7 +531,7 @@ textarea{
 
 #jtext{
 
-    font-size: 2em;
+    font-size: 1em;
     margin-bottom: 11em;
 
 }
@@ -580,6 +578,10 @@ textarea{
         background-image: linear-gradient( rgb(156, 224, 241), rgb(33, 100, 139));
     }
 
+    #jonteDiv{
+        margin-bottom: 15em;
+    }
+
 
 }
 
@@ -616,6 +618,9 @@ textarea{
 #vilmabild{
     float: none;
     margin-bottom: 2em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .vpre{
     margin-bottom: 2em;
@@ -652,10 +657,19 @@ textarea{
 }
 
 #amanda{
-    float:none;
-    text-align: center;
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
 }
 
+#atext{
+    text-align: center;
+}
+#textA{
+    text-align: center;
+}
 
 
 /* Startsida */
@@ -689,10 +703,14 @@ textarea{
 
 #jontebild {
     float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #jtext {
     margin-bottom: 1em;
+    text-align: center;
 }
 
 }
