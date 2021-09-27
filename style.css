@@ -7,7 +7,7 @@
 }
 
 .grad3 {
-    background-image: linear-gradient(rgb(66, 140, 170), rgb(128, 174, 190), rgb(66, 140, 170));
+    background-image: linear-gradient(rgb(51, 124, 153), rgb(148, 196, 212), rgb(49, 130, 161));
 }
 .header{
     background-image: url("images/himmel.jpg");
@@ -213,7 +213,7 @@ a {
 
 .yttretabell{
     border:none;
-    background-image: linear-gradient(rgb(31, 84, 100), rgb(95, 149, 180), rgb(28, 79, 95));
+    background-image: linear-gradient(rgb(39, 105, 126), rgb(85, 142, 175), rgb(39, 105, 126));
     border-radius: 1.5em;
     margin: 2em;
 
