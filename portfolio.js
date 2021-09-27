@@ -15,7 +15,13 @@ $( document ).ready(function() {
     //Här loopar vi alla element i arbete taggen, gör variabel för VARJE element som ska in i html documentet
     function laddaData () {
         for (let index = 0; index < arbete.length; index++) {
-            var div, img, title , customer, start, done, description;
+            var div
+            var img
+            var title
+            var customer
+            var start
+            var done
+            var description;
             div = document.createElement('div')
             div.className = 'arbeten'
 
@@ -66,6 +72,6 @@ $( document ).ready(function() {
 
     // specifierar vad vi vill göra (GET), från vad (vår xml fil), om det ska ske i async(inte samtidigt) eller samtidigt. Async == true, sync == false
     xhr.open('GET', 'portfolio.xml', true)
-    //vi vill inte skicka något, därav GET methoden. Därför skickar vi ocksp null. Utan denna function kör inte get något. Måste specificeras
+    //vi vill inte skicka något, därav GET methoden. Därför skickar vi också null. Utan denna function kör inte get något. Måste specificeras
     xhr.send(null)
 })
