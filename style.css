@@ -58,7 +58,7 @@ a {
     border: rgb(33, 100, 139)0.01em;
     color: rgb(248, 248, 248);
     text-align: center;
-    font-size: 50px;
+    font-size: 3em;
     margin: 0;
     text-shadow: 0.03em 0.03em rgb(139, 139, 139);
 
@@ -66,7 +66,7 @@ a {
 
 .pilmenu {
     width: 2.5%;
-    margin-top: 10px;
+    
     
 }
 
@@ -87,14 +87,7 @@ a {
     display: none;
 }
 
-.menylista {
-    list-style-type: none;
-    text-align: center;
-    font-size: 30px;
-    margin: 1em;
-    color: rgb(33, 100, 139);
-    border-bottom: dotted rgb(5, 131, 131);
-}
+
 
 
 #myLinks{
@@ -280,8 +273,8 @@ a {
 
 #bagage {
     position: absolute;
-    top: 0px;
-    right: 0px;
+    top: 0em;
+    right: 0em;
     width:  10%;
     height: 20%;
 }
@@ -305,7 +298,10 @@ a {
     left: 4em;
     bottom: 10em; 
     margin: 0em;
+}
 
+#atext{
+    font-size: 1em;
 }
 #vBild{
     display: none;
@@ -573,7 +569,7 @@ textarea{
 
 
 
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 767px) {
 
 
 /*Startsida*/
@@ -602,8 +598,12 @@ textarea{
 /*Personligt sida*/
 
 #vilmabild{
-    float: center;
+    float: none;
     margin-bottom: 2em;
+}
+.vpre{
+    margin-bottom: 2em;
+    margin-top: 2em;
 }
 
 #vstapel1{
@@ -634,6 +634,12 @@ textarea{
 .grad1{
     background-image: 0;
 }
+
+#amanda{
+    float:none;
+    text-align: center;
+}
+
 
 
 /* Startsida */
@@ -673,114 +679,10 @@ textarea{
     margin-bottom: 1em;
 }
 
+
 }
 
-
-/* Jontes sida */
-
-
-
-
-.diagram{
-    width: 600px;
-    height: 300px;
-    display: block;
-}
 
 .animate :hover{
-    color: rgb(15, 49, 70);
+    color: rgb(254, 255, 255);
 }
-
-
-
-/*
-#testdiagram{
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: coral;
-
-}
-
-.nummer{
-    color: black;
-    margin: 0;
-    padding: 0;
-    width: 50px;
-    height: 100%;
-    display: inline-block;
-}
-
-#nummer li{
-    list-style: none;
-    height: 150px;
-    position: relative;
-    bottom: 145px;
-}
-
-#staplar{
-    color: darkblue;
-    font-size: 12px;
-    font-weight: 600;
-    background: darkorchid;
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-    width: 500px;
-    height: 300px;
-    border-radius: 5px;
-}
-
-#staplar li{
-    display: table-cell;
-    width: 100px;
-    height: 300px;
-    position: relative;
-}
-
-#staplar span{
-    width: 100%;
-    position: absolute;
-    bottom: -310px;
-    text-align: center;
-    display: block;
-}
-.sta li{
-    background: darkblue;
-    width: 30px;
-    height: 100px;
-    position: absolute;
-    bottom: 0%;
-}
-
-
-#vstapel2{
-    border: 0.3em cornflowerblue solid;
-    background-color: cornflowerblue;
-    margin-right: 30em;
-    margin-top: 2em;
-}
-
-#vstapel3{
-    border: 0.3em cornflowerblue solid;
-    background-color: cornflowerblue;
-    margin-right: 58em;
-    margin-top: 2em;
-}
-
-#vstapel4{
-    border: 0.3em cornflowerblue solid;
-    background-color: cornflowerblue;
-    margin-right: 18em;
-    margin-top: 2em;
-}
-
-#vstapel5{
-    border: 0.3em cornflowerblue solid;
-    background-color: cornflowerblue;
-    margin-right: 20em;
-    margin-top: 2em;
-*/ 
