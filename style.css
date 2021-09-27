@@ -113,10 +113,6 @@ a {
     text-align: center;
 }
 
-#infoText {
-    border: purple dashed;
-    margin: 1em;
-}
 
 
 #portfolio .contentIMG {
@@ -128,17 +124,23 @@ a {
     margin-top: 1em;
     margin-left: 1em;
     margin-right: 1em;
-    color: green;
+    color: white;
  }
 
 #portfolio p {
-    color: crimson;
     font-size: 0.7em;
+    color: white;
 }
 
 #portfolio .arbeten {
     display: inline-flex;
     border-style: solid;
+    margin-top: 2em;
+}
+
+#portfolio h5 {
+    color: white;
+    padding: 1em;
 }
 
 /*vilmas sida*/
@@ -673,18 +675,17 @@ textarea{
 #portfolio .arbeten{
     display: inline-table;
     width: 10em;
-    margin: 0.4em;
+    margin: 1em;
 }
 
 
 
-.arbeten i {
-    color:forestgreen;
+#portfolio p {
+    padding: 1em;
 }
 
-.arbeten i {
-    color:forestgreen;
-    margin: auto;
+#portfolio i {
+    padding: 1em;
 }
 
 #jontebild {
