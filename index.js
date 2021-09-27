@@ -77,7 +77,7 @@ $( document ).ready(function() {
     }
     }
 
-    $('#test').on('click', visa);
+    $('#menuDIV').on('click', visa);
 
     function visa(e){
         document.getElementById('myLinks').classList.toggle('show')
@@ -154,7 +154,6 @@ $( document ).ready(function() {
         teleValidation()
         emailValidation()
         msgValidation()
-
     })
     
     //Meddela användaren om meddelandet skickades vid skicka knapp trycket
