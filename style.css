@@ -304,10 +304,6 @@ a {
 }
 
 
-#hoverPics{
-    position: absolute;
-}
-
 #kontakt{
     width: 80%;
     border: solid rgb(47,88, 99);
@@ -688,6 +684,10 @@ textarea{
     margin-bottom: 1em;
     text-align: center;
 }
+}
+
+.animate {
+    text-decoration: underline;
 }
 
 .animate :hover{

@@ -8,7 +8,7 @@ $( document ).ready(function() {
         fyllIKontakt();
     }
     
-    var pics = ["jonte.jpg", "images/amanda.jpg", "mv.jpg", "images/raket.webp"]
+    var pics = ["jonte.jpg", "images/amanda.jpg", "mv.jpg" , "images/gruppBild.jpg"]
 
     $('#nextImage').on('click', start)
     
@@ -22,7 +22,7 @@ $( document ).ready(function() {
         }
         if( index == 0){
         $('.bildspel').fadeOut(3000 , function() {   
-        $('#bild4').attr('src', pics[2]) 
+        $('#bild4').attr('src', pics[1]) 
         $('.bildspel').fadeIn(3000)
         })
         index++;
@@ -32,7 +32,7 @@ $( document ).ready(function() {
         else if ( index == 1){
          
             $('.bildspel').fadeOut(3000 , function() {
-            $('#bild4').attr('src', pics[1]) 
+            $('#bild4').attr('src', pics[2]) 
             $('.bildspel').fadeIn(3000)
             })
             index++;
@@ -41,7 +41,7 @@ $( document ).ready(function() {
             else if ( index == 2){
          
                 $('.bildspel').fadeOut(3000 , function() {
-                $('#bild4').attr('src', pics[0]) 
+                $('#bild4').attr('src', pics[3]) 
                 $('.bildspel').fadeIn(3000)
                 })
                 index++;
@@ -49,7 +49,7 @@ $( document ).ready(function() {
                 }    
             else if ( index == 3){
                     $('.bildspel').fadeOut(3000 , function() {
-                    $('#bild4').attr('src', pics[3]) 
+                    $('#bild4').attr('src', pics[0]) 
                     $('.bildspel').fadeIn(3000)
                     })
                     index= 0;
@@ -82,69 +82,6 @@ $( document ).ready(function() {
     function visa(e){
         document.getElementById('myLinks').classList.toggle('show')
     }
-
-    
-    // $(".animate").hover(function(event){
-    //     showPic(event)
-    // })
-    // // $("#vLink").hover(showPic, hidePic);
-    // // $("#jLink").hover(showPic, hidePic);
-
-    // function showPic(event){
-    //     console.log(event.currentTarget.firstChild.text)
-    //     if(event.currentTarget.firstChild.text == "Amanda Mathisen"){
-    //         $("#aBild").fadeIn(2000);
-    //         $("#vBild").fadeOut(0);
-    //         $("#jBild").fadeOut(0);
-    //     }  
-    //     if(event.currentTarget.firstChild.text == "Vilma Ottner"){
-    //         $("#vBild").fadeIn(2000);
-    //         $("#aBild").fadeOut(0);
-    //         $("#jBild").fadeOut(0);
-    //     }
-    //     if(event.currentTarget.firstChild.text == "Jonathan fucking åmål Gabrielsson"){
-    //         $("#jBild").fadeIn(2000);
-    //         $("#aBild").fadeOut(0);
-    //         $("#vBild").fadeOut(0);
-    //     }
-    //     }
-        
-
-        // if(event.currentTarget == $("#vBild")){
-        //     $("#aBild").fadeIn(2000);
-        // }
-        // if(event.currentTarget == $("#jBild")){
-        //     $("#aBild").fadeIn(2000);
-        // }
-    //}
-
-    // function hidePic(e){
-    //     if(e.currentTarget == $("#aBild")){
-    //         $("#aBild").fadeOut(1000);
-    //     }
-    //     if(e.currentTarget == $("#vBild")){
-    //         $("#vBild").fadeOut(1000);
-    //     }
-    //     if(e.currentTarget == $("#jBild")){
-    //         $("#jBild").fadeOut(1000);
-    //     }
-        
-       
-    // }
-    
-    // function vBild1(){
-    //     $("#vBild").fadeIn(2000);
-    // }
-    // function vbild2(){
-    //     $("#vBild").fadeOut(1000);
-    // }
-
-    // function jBild1(){
-    //     $("#jBild").fadeIn(2000);
-    // }
-    // function jbild2(){
-    //     $("#jBild").fadeOut(1000);
-    // }
 
   
     //När användaren släpper en tanget, kör valideringar. 
